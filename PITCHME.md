@@ -11,7 +11,8 @@
 
 ---
 
-#### Před návrhem
+##### Před návrhem:
+
 ## Designové vstupy
 
 * Kolik toho budeme vyrábět?
@@ -23,6 +24,7 @@
 ---
 
 #### Před návrhem
+
 ## Technologické možnosti
 
 ---
