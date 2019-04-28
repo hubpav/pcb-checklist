@@ -32,6 +32,11 @@ Twitter: @pavelhubner
 
 @ulend
 
+Note:
+- Note 1
+- Note 2
+- Note 3
+
 ---
 
 #### Před návrhem
