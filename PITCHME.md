@@ -14,6 +14,8 @@ Twitter: @pavelhubner
 ## Před návrhem
 @snapend
 
+@box[text-orange span-80 fragment](Mars Attacks # Greetings earthlings. We come in peace!)
+
 ---
 
 ##### Před návrhem:
