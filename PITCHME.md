@@ -10,7 +10,9 @@
 
 ---
 
+@snap[midpoint]
 ## Checklist před odesláním
+@snapend
 
 ---
 
