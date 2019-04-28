@@ -1,8 +1,13 @@
 @snap[midpoint]
-## PCB Checklist
+# PCB Checklist
 ### Pavel Hübner
-###
+
+
+GitHub: github.com/hubpav
+Twitter: @pavelhubner
+
 @snapend
+
 ---
 
 @snap[midpoint]
@@ -26,6 +31,9 @@
 #### Před návrhem
 
 ## Technologické možnosti
+
+* Prototypová výroba desky
+* Sériová výroba desky
 
 ---
 
