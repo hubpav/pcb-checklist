@@ -22,11 +22,15 @@ Twitter: @pavelhubner
 
 ## Designové vstupy
 
+@ul
+
 * Kolik toho budeme vyrábět?
 * Jak dlouho budeme vyrábět?
 * Jak rychle potřebujeme vyrobit jednotlivé dávky?
 * Jak bude vypadat "release train"?
 * Dostupnost součástek?
+
+@ulend
 
 ---
 
