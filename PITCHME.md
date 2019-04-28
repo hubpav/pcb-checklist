@@ -19,49 +19,64 @@ Twitter: @pavelhubner
 ---
 
 ##### Před návrhem:
-
 ## Designové vstupy
 
 @ul
-
-* Kolik toho budeme vyrábět?
-* Jak dlouho budeme vyrábět?
-* Jak rychle potřebujeme vyrobit jednotlivé dávky?
-* Jak bude vypadat "release train"?
-* Dostupnost součástek?
-
+- Kolik toho budeme vyrábět
+- Jak dlouho budeme vyrábět
+- Jak bude vypadat "release train"?
+- Dostupnost součástek?
 @ulend
 
 Note:
-- Note 1
-- Note 2
-- Note 3
+- Timing pro jednotlivé dávky
 
 ---
 
-#### Před návrhem
-
+#### Před návrhem:
 ## Technologické možnosti
 
-* Prototypová výroba desky
-* Sériová výroba desky
+@ul
+- Prototypová výroba desky
+- Sériová výroba desky
+@ulend
 
 ---
 
 ## Skladové hospodářství
 
-* Lifecycle management
-* Trackování skladových zásob
+@ul
+- Lifecycle management
+- Trackování skladových zásob
+@ulend
 
 ---
 
 ## Optimalizace součástek
 
+@ul
+- Parametry
+- Dostupnost
+- Cena
+@ulend
+
 ---
 
 @snap[midpoint]
-## Checklist před odesláním
+## Checklist před dokončením
 @snapend
+
+@ul
+- Označení desky
+- Prostor pro trasovatelný kód
+- Značky pro OA (fiducials)
+- Badmarky
+- Osazovací plánek
+  - Poziční a hodnotový
+- Aktuální vygenerovaný ground plane
+- ERC/DRC
+
+@ulend
 
 ---
 
