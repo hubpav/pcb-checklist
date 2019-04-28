@@ -2,12 +2,32 @@
 
 ---
 
-## Test
-
-* a
-* b
-* c
+## Skladové hospodářství
 
 ---
 
-## The End :)
+## Optimalizace součástek
+
+---
+
+## Checklist před odesláním
+
+---
+
+## Generování podkladů
+
+---
+
+## Panelizace desky
+
+---
+
+## Výrobní dokumentace
+
+---
+
+## Specifikace výroby
+
+---
+
+## Diskuze
