@@ -112,19 +112,17 @@ Note:
 #### Skladové hospodářství:
 ## Optimalizace součástek
 
-@ol
-1. Parametry
-2. Dostupnost
-3. Cena
-@olend
+@ul
+- Parametry
+- Dostupnost
+- Cena
+@ulend
 
 Důležitá je schopnost iterace
 
 ---
 
-@snap[midpoint]
 ## Checklist před dokončením
-@snapend
 
 @ul
 - Označení desky (Rx.y)
@@ -142,13 +140,6 @@ Důležitá je schopnost iterace
 ## Generování podkladů
 
 @ul
-- Gerber
-- NC Drill
-- Part list
-- BOM
-- Osazovací plánky
-    - Poziční
-    - Hodnotové
 - Prostor pro trasovatelný kód
 - Značky pro OA (fiducials)
 - Badmarky
@@ -156,7 +147,6 @@ Důležitá je schopnost iterace
   - Poziční a hodnotový
 - Aktuální vygenerovaný ground plane
 - ERC/DRC
-
 @ulend
 
 ---
@@ -166,6 +156,20 @@ Důležitá je schopnost iterace
 ---
 
 ## Výrobní dokumentace
+
+@ul
+- Gerber
+- NC Drill
+- PCB stack
+- Panelizace
+- Part list
+- BOM
+- Osazovací plánky
+    - Poziční
+    - Hodnotové
+- Popis oživení
+- Popis testování
+@ulend
 
 ---
 
@@ -178,15 +182,19 @@ Důležitá je schopnost iterace
 - Rozsah angažovanosti
     - Nákup materiálu
     - Objednání desek
+    - Zajištění planžety
     - Osazení desek
     - Testování
     - Kompletace
 - Dokumentační balíček
 @ulend
 
+Note:
+- FUCKUP: Nejednou jsme jeli do Pragoboardu pro planžetu.
+
 ---
 
-## Zpětná vazba
+## Sledování výroby
 
 @ul
 - Potvrzení přijetí zakázky
@@ -195,6 +203,19 @@ Důležitá je schopnost iterace
 - Pravidelná komunikace a kontrola
     - Alokace na lince
     - Plnění subdodávek
+@ulend
+
+---
+
+## Převzetí zakázky
+
+@ul
+- Předávací protokol
+- Servisní operace
+    - Testery
+- Zpětná vazba výrobci
+- Zpětná vazba zadavateli
+    - Konstruktérovi
 @ulend
 
 ---
