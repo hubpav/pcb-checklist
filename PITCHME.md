@@ -2,11 +2,24 @@
 # PCB Checklist
 ### Pavel Hübner
 
+HARDWARIO s.r.o.
 
-GitHub: github.com/hubpav
 Twitter: @pavelhubner
+GitHub: github.com/hubpav
 
 @snapend
+
+---
+@snap[midpoint]
+## Cíl výrobního procesu
+@snapend
+
+- Přesnost
+- Přenositelnost
+- Opakovatelnost
+- Dostupnost
+- Předvídatelnost
+- Trasovatelnost
 
 ---
 
@@ -46,18 +59,64 @@ Note:
 ## Skladové hospodářství
 
 @ul
-- Lifecycle management
-- Trackování skladových zásob
+- Centrální databáze
+- Propojení na ECAD
+- Propojení na generování výstupů
 @ulend
+
+---
+
+#### Skladové hospodářství:
+## Centrální databáze 1/2
+
+@ul
+- Interní part number
+    - Uvedení kategorie
+    - Příklad: HIO-IC-TMP112
+- Stav součástky
+    - NEW/ACT/NRND/EOL
+- Osazovací popisek
+    - Pomáhá pro ruční osazení
+- Stručný popis
+- Pouzdro
+    - Označení (0402, SOIC-8)
+    - Montážní technologie (SMT/THT)
+- Aktuální zásoba
+
+---
+
+#### Skladové hospodářství:
+## Centrální databáze 2/2
+
+@ul
+- Výrobce (N)
+    - Jméno
+    - Označení
+- Dodavatel (N)
+    - Jméno
+    - Označení
+    - MOQ / MPU
+    - L/T
+    - Ceny
+        - EUR/USD/CZK
+@ulend
+
+Note:
+- Interní part number = klíč
+- Montážní technologie - párování na part list
+- Volná skladová karta
+- Více výrobců
+- Více dodavatelů
+- Ceny v čase
 
 ---
 
 ## Optimalizace součástek
 
 @ul
-- Parametry
-- Dostupnost
-- Cena
+1. Parametry
+2. Dostupnost
+3. Cena
 @ulend
 
 ---
@@ -67,7 +126,28 @@ Note:
 @snapend
 
 @ul
-- Označení desky
+- Označení desky (Rx.y)
+- Prostor pro trasovatelný kód
+- Značky pro OA (fiducials)
+- Badmarky
+- Osazovací plánek
+  - Poziční a hodnotový
+- Aktuální vygenerovaný ground plane
+- ERC/DRC
+@ulend
+
+---
+
+## Generování podkladů
+
+@ul
+- Gerber
+- NC Drill
+- Part list
+- BOM
+- Osazovací plánky
+    - Poziční
+    - Hodnotové
 - Prostor pro trasovatelný kód
 - Značky pro OA (fiducials)
 - Badmarky
@@ -78,9 +158,6 @@ Note:
 
 @ulend
 
----
-
-## Generování podkladů
 
 ---
 
