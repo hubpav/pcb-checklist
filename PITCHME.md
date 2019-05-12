@@ -27,18 +27,16 @@ GitHub: github.com/hubpav
 ## Před návrhem
 @snapend
 
-@box[text-orange span-80 fragment](Mars Attacks # Greetings earthlings. We come in peace!)
-
 ---
 
 ##### Před návrhem:
 ## Designové vstupy
 
 @ul
+- Specifikace produktu
 - Kolik toho budeme vyrábět
 - Jak dlouho budeme vyrábět
-- Jak bude vypadat "release train"?
-- Dostupnost součástek?
+- Jak bude vypadat výrobní pipeline
 @ulend
 
 Note:
@@ -111,13 +109,16 @@ Note:
 
 ---
 
+#### Skladové hospodářství:
 ## Optimalizace součástek
 
-@ul
+@ol
 1. Parametry
 2. Dostupnost
 3. Cena
-@ulend
+@olend
+
+Důležitá je schopnost iterace
 
 ---
 
@@ -158,7 +159,6 @@ Note:
 
 @ulend
 
-
 ---
 
 ## Panelizace desky
@@ -170,6 +170,32 @@ Note:
 ---
 
 ## Specifikace výroby
+
+@ul
+- Označení zakázky
+- Požadované množství
+- Požadovaný termín
+- Rozsah angažovanosti
+    - Nákup materiálu
+    - Objednání desek
+    - Osazení desek
+    - Testování
+    - Kompletace
+- Dokumentační balíček
+@ulend
+
+---
+
+## Zpětná vazba
+
+@ul
+- Potvrzení přijetí zakázky
+- Potvrzení správnosti podkladových materiálů
+    - Iterační proces
+- Pravidelná komunikace a kontrola
+    - Alokace na lince
+    - Plnění subdodávek
+@ulend
 
 ---
 
