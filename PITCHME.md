@@ -1,5 +1,5 @@
 @snap[midpoint]
-# PCB Checklist
+# PCB CHECKLIST
 ### Pavel Hübner
 
 HARDWARIO s.r.o.
@@ -10,17 +10,51 @@ GitHub: github.com/hubpav
 @snapend
 
 ---
+
 @snap[midpoint]
-## Cíl výrobního procesu
+## Úvod
 @snapend
+
+---
+
+#### Úvod 1:
+## Proč checklist?
+
+@ul
+- 1. Někdo začíná a vodítko se hodí
+- 2. Chceme zlepšit stávající procesy
+- 3. Protože zapomínáme
+@ulend
+
+---
+
+#### Úvod 2:
+## Checklist zlepšuje...
 
 @ul
 - Přesnost
 - Opakovatelnost
 - Dostupnost
-- Předvídatelnost
 - Trasovatelnost
 - Přenositelnost
+@ulend
+
+Note:
+
+Trasovatelnost:
+- Analýza poruch
+- Servis a reklamace
+
+---
+
+#### Úvod 3:
+## Kdy už se vyplatil?
+
+@ul
+- Úspora času
+- Úspora financí
+- Záchrana před bankrotem
+- Záchrana života
 @ulend
 
 ---
@@ -31,42 +65,76 @@ GitHub: github.com/hubpav
 
 ---
 
-##### Před návrhem:
+##### Před návrhem 1:
 ## Designové vstupy
 
 @ul
+- Vlastník produktu
 - Specifikace produktu
-- Kolik toho budeme vyrábět
-- Jak dlouho budeme vyrábět
-- Jak bude vypadat výrobní pipeline
+- Cílový zákazník
+- Požadované certifikace
+- Odhad životního cyklu:
+    - Kolik toho budeme vyrábět?
+    - Jak dlouho budeme vyrábět?
 @ulend
 
 Note:
+
+Specifikace:
 - Timing pro jednotlivé dávky
 
 ---
 
-##### Před návrhem:
+##### Před návrhem 2:
+## Projektové etapy
+
+@ul
+- Název etapy, např.:
+    - Funkční vzorek (FVZ)
+    - Prototypová série (PTS)
+    - Ověřovací série (OS)
+    - Sériová výroba (SV)
+- Termín a množství
+- Oponentura
+@ulend
+
+---
+
+#### Před návrhem 3:
+## Technologické možnosti
+
+@ul
+- Výrobce desek
+    - Prototypová výroba
+    - Sériová výroba
+- Možnosti ručního osazení
+- Sériová výroba desky
+- Požadavky na tester
+
+@ulend
+
+---
+
+##### Před návrhem 4:
 ## Technická rozvaha
 
 @ul
 - Blokový diagram
 - Výběr součástek
+    - Jednání s výrobci/distributory
+- Výběr nástrojů
+- Technická specifikace
+- Oponentura
 @ulend
-
-Note:
-- Timing pro jednotlivé dávky
 
 ---
 
+@snap[midpoint]
+## Fáze návrhu
+@snapend
 
-#### Před návrhem:
-## Technologické možnosti
+---
 
-@ul
-- Prototypová výroba desky
-- Sériová výroba desky
-@ulend
 
 ---
 
@@ -81,11 +149,21 @@ Note:
 ---
 
 #### Skladové hospodářství:
-## Centrální databáze 1/2
+## Centrální databáze 1/3
+
+@ul
+- Proč?
+
+@ulend
+
+---
+
+#### Skladové hospodářství:
+## Centrální databáze 2/3
 
 @ul
 - Interní part number
-    - Uvedení kategorie
+    - Uvedení kategorie (IC,R,C,BAT,...)
     - Příklad: HIO-IC-TMP112
 - Stav součástky
     - NEW/ACT/NRND/EOL
@@ -93,14 +171,14 @@ Note:
     - Pomáhá pro ruční osazení
 - Stručný popis
 - Pouzdro
-    - Označení (0402, SOIC-8)
+    - Označení (0402,SOIC-8)
     - Montážní technologie (SMT/THT)
 - Aktuální zásoba
 
 ---
 
 #### Skladové hospodářství:
-## Centrální databáze 2/2
+## Centrální databáze 3/3
 
 @ul
 - Výrobce (N)
@@ -129,12 +207,26 @@ Note:
 ## Optimalizace součástek
 
 @ul
-- Parametry
-- Dostupnost
-- Cena
+- Parametry, dostupnost, cena
+- Hledání průniků
+    - Existující produkty
+    - V rámci designu
+- Výrobní technologie
 @ulend
 
-Důležitá je schopnost iterace
+---
+
+## Designové opatření
+
+@ul
+- Diody ve skleněném pouzdře
+- Keramické kondenzátory blízko kraji desky
+    - Mechanické namáhání nejen při separaci soulepu
+    - Zvážit použití flex term přívodů
+- Impedanční přizpůsobení
+- Moduly z jedné strany
+
+@ulend
 
 ---
 
