@@ -225,13 +225,23 @@ Note:
 ## Designové opatření
 
 @ul
+- Minimalizace lidské práce
 - Diody ve skleněném pouzdře
 - Keramické kondenzátory blízko kraji desky
     - Mechanické namáhání nejen při separaci soulepu
     - Zvážit použití flex term přívodů
 - Impedanční přizpůsobení
 - Moduly z jedné strany
+- Minimum solder mask sliver
+- Board origin bottom left
 
+- malovýrobá dostupnost:
+    - Bulk
+    - Cut Tape
+    - Tape & Reel
+    - Tray
+    - DigiReel
+- Netahejte měď až do kraje desky
 @ulend
 
 ---
@@ -265,7 +275,59 @@ Note:
 
 ---
 
+## Generování Gerber
+
+@ul
+- Obrys desky
+- Frézování (pokovené/nepokovené)
+- Měď všechny vrstvy
+- Maska T/B
+- Potisk T/B
+- Pájecí pasta T/B - v případě planžety
+@ulend
+
+---
+
 ## Panelizace desky
+
+- Jeden design na panel
+- Optimalizace obrysu
+- Typy separace
+    - V-drážky (V Grooving)
+    - Frézování (Milling)
+    - Můstky (Tab breakout)
+- Technologické okolí
+    - "Tooling strip"
+    - Po krajích zhruba 10 mm
+    - Montážní díry
+    - Pomocné využití - testování řízené impedance
+
+---
+
+## Výroba desky
+
+- Název desky, počet kusů, termín
+- Technologie
+    - Počet vrstev + layer stack
+    - Barva masky
+    - Povrchová úprava
+    - Testování
+- Výrobní data
+
+---
+
+- Optimalizace obrysu
+- Typy separace
+    - V-drážky (V Grooving)
+    - Frézování (Milling)
+    - Můstky (Tab breakout)
+- Technologické okolí
+    - "Tooling strip"
+    - Po krajích zhruba 10 mm
+    - Montážní díry
+    - Pomocné využití - testování řízené impedance
+
+
 
 ---
 
