@@ -1,10 +1,12 @@
 @snap[midpoint]
+
 # PCB CHECKLIST
 ### Pavel Hübner
 
 HARDWARIO s.r.o.
 
 Twitter: @pavelhubner
+
 GitHub: github.com/hubpav
 
 @snapend
@@ -21,9 +23,9 @@ GitHub: github.com/hubpav
 ## Proč checklist?
 
 @ul
-- 1. Někdo začíná a vodítko se hodí
+- 1. Někdo začíná a potřebuje vodítko
 - 2. Chceme zlepšit stávající procesy
-- 3. Protože zapomínáme
+- 3. Protože jsme jen lidi a zapomínáme
 @ulend
 
 ---
@@ -48,7 +50,7 @@ Trasovatelnost:
 ---
 
 #### Úvod 3:
-## Kdy už se vyplatil?
+## Kdy se checklist vyplatil?
 
 @ul
 - Úspora času
@@ -109,7 +111,7 @@ Specifikace:
     - Sériová výroba
 - Možnosti ručního osazení
 - Sériová výroba desky
-- Požadavky na tester
+- Požadavky na výrobní tester
 
 @ulend
 
@@ -135,31 +137,29 @@ Specifikace:
 
 ---
 
+TODO
 
 ---
 
+@snap[midpoint]
 ## Skladové hospodářství
+@snapend
+
+---
+
+#### Skladové hospodářství 1:
+## Centrální databáze
 
 @ul
-- Centrální databáze
 - Propojení na ECAD
 - Propojení na generování výstupů
+- Vazba na nákup, výrobu, obchod
 @ulend
 
 ---
 
-#### Skladové hospodářství:
-## Centrální databáze 1/3
-
-@ul
-- Proč?
-
-@ulend
-
----
-
-#### Skladové hospodářství:
-## Centrální databáze 2/3
+#### Skladové hospodářství 2:
+## Struktura centrální databáze I.
 
 @ul
 - Interní part number
@@ -170,15 +170,17 @@ Specifikace:
 - Osazovací popisek
     - Pomáhá pro ruční osazení
 - Stručný popis
+- Přílohy (výkresy, datasheety, atd.)
 - Pouzdro
     - Označení (0402,SOIC-8)
     - Montážní technologie (SMT/THT)
 - Aktuální zásoba
+@ulend
 
 ---
 
-#### Skladové hospodářství:
-## Centrální databáze 3/3
+#### Skladové hospodářství 3:
+## Struktura centrální databáze II.
 
 @ul
 - Výrobce (N)
@@ -195,7 +197,7 @@ Specifikace:
 
 Note:
 - Interní part number = klíč
-- Montážní technologie - párování na part list
+- Montážní technologie - důležité pro part list
 - Volná skladová karta
 - Více výrobců
 - Více dodavatelů
@@ -203,7 +205,7 @@ Note:
 
 ---
 
-#### Skladové hospodářství:
+#### Skladové hospodářství 4:
 ## Optimalizace součástek
 
 @ul
