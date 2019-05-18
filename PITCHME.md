@@ -31,7 +31,7 @@ GitHub: github.com/hubpav
 ---
 
 #### Úvod 2:
-## Checklist zlepšuje...
+## Checklist pomáhá zlepšit...
 
 @ul
 - Přesnost
@@ -50,13 +50,11 @@ Trasovatelnost:
 ---
 
 #### Úvod 3:
-## Kdy se checklist vyplatil?
+## Kdy se už checklist vyplatil?
 
 @ul
-- Úspora času
-- Úspora financí
-- Záchrana před bankrotem
-- Záchrana života
+- Úspořil čas
+- Úspořil peníze
 @ulend
 
 ---
@@ -92,10 +90,10 @@ Specifikace:
 
 @ul
 - Název etapy, např.:
-    - Funkční vzorek (FVZ)
-    - Prototypová série (PTS)
-    - Ověřovací série (OS)
-    - Sériová výroba (SV)
+    - Funkční vzorek
+    - Prototypová série
+    - Ověřovací série
+    - Sériová výroba
 - Termín a množství
 - Oponentura
 @ulend
@@ -159,7 +157,7 @@ TODO
 ---
 
 #### Skladové hospodářství 2:
-## Struktura centrální databáze I.
+## Struktura databáze 1/3
 
 @ul
 - Interní part number
@@ -168,7 +166,15 @@ TODO
 - Stav součástky
     - NEW/ACT/NRND/EOL
 - Osazovací popisek
-    - Pomáhá pro ruční osazení
+    - Pomáhá při ručním osazení
+@ulend
+
+---
+
+#### Skladové hospodářství 3:
+## Struktura databáze 2/3
+
+@ul
 - Stručný popis
 - Přílohy (výkresy, datasheety, atd.)
 - Pouzdro
@@ -179,20 +185,18 @@ TODO
 
 ---
 
-#### Skladové hospodářství 3:
-## Struktura centrální databáze II.
+#### Skladové hospodářství 4:
+## Struktura databáze 3/3
 
 @ul
 - Výrobce (N)
-    - Jméno
-    - Označení
+    - Jméno + kontakt
+    - Interní označení
 - Dodavatel (N)
-    - Jméno
-    - Označení
-    - MOQ / MPU
-    - L/T
-    - Ceny
-        - EUR/USD/CZK
+    - Jméno + kontakt
+    - Interní označení
+    - MOQ, MPU, L/T
+    - Ceny (EUR/USD/CZK)
 @ulend
 
 Note:
