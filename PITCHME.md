@@ -14,12 +14,14 @@ GitHub: github.com/hubpav
 ## Cíl výrobního procesu
 @snapend
 
+@ul
 - Přesnost
-- Přenositelnost
 - Opakovatelnost
 - Dostupnost
 - Předvídatelnost
 - Trasovatelnost
+- Přenositelnost
+@ulend
 
 ---
 
@@ -43,6 +45,20 @@ Note:
 - Timing pro jednotlivé dávky
 
 ---
+
+##### Před návrhem:
+## Technická rozvaha
+
+@ul
+- Blokový diagram
+- Výběr součástek
+@ulend
+
+Note:
+- Timing pro jednotlivé dávky
+
+---
+
 
 #### Před návrhem:
 ## Technologické možnosti
