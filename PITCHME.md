@@ -406,8 +406,6 @@ Note:
     - Montážní díry
     - Pomocné využití - testování řízené impedance
 
-
-
 ---
 
 ## Výrobní dokumentace
