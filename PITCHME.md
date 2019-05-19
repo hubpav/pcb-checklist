@@ -61,11 +61,13 @@ Note:
 #### Úvod 3:
 ## Struktura prezentace
 
+@ul
 - 1. Skladové hospodářství
 - 2. Před návrhem
 - 3. Design fáze
 - 4. Generování podkladů
 - 5. Zadání do výroby
+@ulend
 
 ---
 
@@ -257,6 +259,10 @@ Note:
 - Nezapomenout interní part number
 - Konzistentní pravidla
 - Konzultace s technology u výrobce
+- Správná specifikace balení:
+    - Bulk, Cut Tape
+    - Tape & Reel, Tray
+    - DigiReel
 @ulend
 
 ---
@@ -266,59 +272,56 @@ Note:
 
 @ul
 - Razítko (identifikátor + revize)
-- TODO...
-@ulend
-
----
-
-#### Fáze návrhu 4:
-## Návrh spojů
-
-@ul
-- Razítko (identifikátor + revize)
-- TODO...
-@ulend
-
-- Rozdíl mezi dobrou deskou a skvělou deskou
-    - Počet jejich interací
-- DFM/DFA/DFT by měl být od začátku procesu
-- Minimalizace lidské práce
+- Pojmenované všechny signály
 - Diody ve skleněném pouzdře
-- Keramické kondenzátory blízko kraji desky
-    - Mechanické namáhání nejen při separaci soulepu
-    - Zvážit použití flex term přívodů
-- Impedanční přizpůsobení
-- Moduly z jedné strany
-- Minimum solder mask sliver
-- Board origin bottom left
-- Unterminated traces
-
-- malovýrobá dostupnost:
-    - Bulk
-    - Cut Tape
-    - Tape & Reel
-    - Tray
-    - DigiReel
-- Netahejte měď až do kraje desky
+- TODO...
 @ulend
-
-
----
-
-#### Fáze návrhu 4:
-## Designové opatření II.
-
-
-
-Note:
 
 ---
 
 #### Fáze návrhu 5:
-## Designové opatření III.
+## Návrh spojů I.
 
-Note:
+@ul
+- Razítko (identifikátor + revize)
+- Nulová souřadnice desky v levém dolním rohu
+- Identifikátor + revize na desce
+- Minimum solder mask sliver
+- Impedanční přizpůsobení
+- Netahejte měď až do kraje desky
+- Unterminated traces
+- Keramické kondenzátory blízko kraji desky
+    - Zvážit použití flex term přívodů
+    - Mechanické namáhání nejen při separaci soulepu
+@ulend
 
+---
+
+#### Fáze návrhu 6:
+## Návrh spojů II.
+
+@ul
+- Razítko (identifikátor + revize)
+- Nulová souřadnice desky v levém dolním rohu
+- Identifikátor + revize na desce
+- Minimum solder mask sliver
+- Impedanční přizpůsobení
+- Netahejte měď až do kraje desky
+- Unterminated traces
+- Keramické kondenzátory blízko kraji desky
+    - Zvážit použití flex term přívodů
+    - Mechanické namáhání nejen při separaci soulepu
+@ulend
+
+---
+
+#### Fáze návrhu 7:
+## Kontrola ERC/DRC
+
+@ul
+- "Je to jen varování"
+- Šablonové nastavení
+@ulend
 
 ---
 
