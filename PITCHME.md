@@ -62,7 +62,7 @@ Note:
 ## Struktura prezentace
 
 - 1. Skladové hospodářství
-- 2. Design vstupy
+- 2. Před návrhem
 - 3. Design fáze
 - 4. Generování podkladů
 - 5. Zadání do výroby
@@ -143,7 +143,7 @@ Note:
 
 ---
 
-#### Skladové hospodářství 4:
+#### Skladové hospodářství 5:
 ## Optimalizace součástek
 
 @ul
@@ -152,6 +152,8 @@ Note:
     - Existující produkty
     - V rámci designu
 - Výrobní technologie
+- Ve výrobní fázi:
+    - Dostupnost
 @ulend
 
 ---
@@ -163,11 +165,11 @@ Note:
 ---
 
 ##### Před návrhem 1:
-## Designové vstupy
+## Projektová šablona
 
 @ul
-- Vlastník produktu
 - Specifikace produktu
+- Vlastník produktu
 - Cílový zákazník
 - Požadované certifikace
 - Odhad životního cyklu:
@@ -178,7 +180,7 @@ Note:
 ---
 
 ##### Před návrhem 2:
-## Projektové etapy
+## Výrobní etapy
 
 @ul
 - Příklad rozdělení:
@@ -187,7 +189,7 @@ Note:
     - Ověřovací série < 1000 ks
     - Sériová výroba
 - Termín a množství
-- Každá fáze uzavřená oponenturou
+- Oponentura před/po každé etapě
 @ulend
 
 ---
@@ -200,16 +202,25 @@ Note:
     - Prototypová výroba
     - Sériová výroba
 - Možnosti ručního osazení
-- Sériová výroba desky
+- Technologické zázemí
 - Požadavky na výrobní tester
+- Jak se řeší kompletace a balení
+- Jak se řeší skladování
 @ulend
 
 Note:
-- Zázemí RTG
+- Výrobce desek - kompatibilita materiálů
+- Rentgen
 
 ---
 
-##### Před návrhem 4:
+@snap[midpoint]
+## Fáze návrhu
+@snapend
+
+---
+
+##### Fáze návrhu 1:
 ## Technická rozvaha
 
 @ul
@@ -223,31 +234,54 @@ Note:
 
 ---
 
-@snap[midpoint]
-## Fáze návrhu
-@snapend
+#### Fáze návrhu 2:
+## Návrhový cyklus desky
 
----
-
-#### Fáze návrhu 1:
-## PCB design cyklus
-
+@ul
 - 1. Tvorba knihoven
 - 2. Návrh zapojení
 - 3. Rozmístění součástek
-- 4. Routing spojů
-- 5. PCB review
-- 6. Odeslání do výroby
+- 4. Návrh spojů
+- 5. Kontrola ERC/DRC
+- 6. Generování podkladů
+- 7. Odeslání do výroby
+@ulend
 
 ---
 
-## Designové opatření
+#### Fáze návrhu 3:
+## Tvorba knihoven
 
 @ul
+- Praktická kategorizace
+- Nezapomenout interní part number
+- Konzistentní pravidla
+- Konzultace s technology u výrobce
+@ulend
+
+---
+
+#### Fáze návrhu 4:
+## Tvorba schématu
+
+@ul
+- Razítko (identifikátor + revize)
+- TODO...
+@ulend
+
+---
+
+#### Fáze návrhu 4:
+## Návrh spojů
+
+@ul
+- Razítko (identifikátor + revize)
+- TODO...
+@ulend
+
 - Rozdíl mezi dobrou deskou a skvělou deskou
     - Počet jejich interací
-
-- DFM by měl být od začátku procesu
+- DFM/DFA/DFT by měl být od začátku procesu
 - Minimalizace lidské práce
 - Diody ve skleněném pouzdře
 - Keramické kondenzátory blízko kraji desky
@@ -267,6 +301,24 @@ Note:
     - DigiReel
 - Netahejte měď až do kraje desky
 @ulend
+
+
+---
+
+#### Fáze návrhu 4:
+## Designové opatření II.
+
+
+
+Note:
+
+---
+
+#### Fáze návrhu 5:
+## Designové opatření III.
+
+Note:
+
 
 ---
 
