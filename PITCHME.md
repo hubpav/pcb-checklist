@@ -17,21 +17,28 @@ GitHub: github.com/hubpav
 ## Úvod
 @snapend
 
+Note:
+
+- Uvedené pohledy jsou čistě subjektivní
+- Každá firma/konstruktér si tvoří vlastní checklisty
+- Nečekejte jednu dlouhou direktivní tabulku
+
 ---
 
 #### Úvod 1:
-## Proč checklist?
+## Důvod pro checklist
 
 @ul
 - 1. Někdo začíná a potřebuje vodítko
-- 2. Chceme zlepšit stávající procesy
-- 3. Protože jsme jen lidi a zapomínáme
+- 2. Potřebujeme zlepšit procesy
+- 3. Návod pro nové kolegy
+- 4. Nechceme opakovat stejné chyby
 @ulend
 
 ---
 
 #### Úvod 2:
-## Checklist pomáhá zlepšit...
+## Svatý grál výroby
 
 @ul
 - Přesnost
@@ -39,108 +46,31 @@ GitHub: github.com/hubpav
 - Dostupnost
 - Trasovatelnost
 - Přenositelnost
+- Celková kvalita
 @ulend
 
 Note:
 
-Trasovatelnost:
-- Analýza poruch
-- Servis a reklamace
-
+- Trasovatelnost:
+    - Analýza poruch
+    - Servis a reklamace
+- Kvalita:
+    - Vnímání designér x výrobce
 ---
 
 #### Úvod 3:
-## Kdy se už checklist vyplatil?
+## Struktura prezentace
 
-@ul
-- Úspořil čas
-- Úspořil peníze
-@ulend
-
----
-
-@snap[midpoint]
-## Před návrhem
-@snapend
-
----
-
-##### Před návrhem 1:
-## Designové vstupy
-
-@ul
-- Vlastník produktu
-- Specifikace produktu
-- Cílový zákazník
-- Požadované certifikace
-- Odhad životního cyklu:
-    - Kolik toho budeme vyrábět?
-    - Jak dlouho budeme vyrábět?
-@ulend
-
-Note:
-
-Specifikace:
-- Timing pro jednotlivé dávky
-
----
-
-##### Před návrhem 2:
-## Projektové etapy
-
-@ul
-- Název etapy, např.:
-    - Funkční vzorek
-    - Prototypová série
-    - Ověřovací série
-    - Sériová výroba
-- Termín a množství
-- Oponentura
-@ulend
-
----
-
-#### Před návrhem 3:
-## Technologické možnosti
-
-@ul
-- Výrobce desek
-    - Prototypová výroba
-    - Sériová výroba
-- Možnosti ručního osazení
-- Sériová výroba desky
-- Požadavky na výrobní tester
-
-@ulend
-
----
-
-##### Před návrhem 4:
-## Technická rozvaha
-
-@ul
-- Blokový diagram
-- Výběr součástek
-    - Jednání s výrobci/distributory
-- Výběr nástrojů
-- Technická specifikace
-- Oponentura
-@ulend
+- 1. Skladové hospodářství
+- 2. Design vstupy
+- 3. Design fáze
+- 4. Generování podkladů
+- 5. Zadání do výroby
 
 ---
 
 @snap[midpoint]
-## Fáze návrhu
-@snapend
-
----
-
-TODO
-
----
-
-@snap[midpoint]
-## Skladové hospodářství
+## (1) Skladové hospodářství
 @snapend
 
 ---
@@ -169,6 +99,9 @@ TODO
     - Pomáhá při ručním osazení
 @ulend
 
+Note:
+- Interní part number = klíč
+
 ---
 
 #### Skladové hospodářství 3:
@@ -180,8 +113,11 @@ TODO
 - Pouzdro
     - Označení (0402,SOIC-8)
     - Montážní technologie (SMT/THT)
-- Aktuální zásoba
+- Aktuální zásoba (umístění)
 @ulend
+
+Note:
+- Montážní technologie - důležité pro part list
 
 ---
 
@@ -189,10 +125,10 @@ TODO
 ## Struktura databáze 3/3
 
 @ul
-- Výrobce (N)
+- Výrobce (n)
     - Jméno + kontakt
     - Interní označení
-- Dodavatel (N)
+- Dodavatel (n)
     - Jméno + kontakt
     - Interní označení
     - MOQ, MPU, L/T
@@ -200,8 +136,6 @@ TODO
 @ulend
 
 Note:
-- Interní part number = klíč
-- Montážní technologie - důležité pro part list
 - Volná skladová karta
 - Více výrobců
 - Více dodavatelů
@@ -222,9 +156,98 @@ Note:
 
 ---
 
+@snap[midpoint]
+## Před návrhem
+@snapend
+
+---
+
+##### Před návrhem 1:
+## Designové vstupy
+
+@ul
+- Vlastník produktu
+- Specifikace produktu
+- Cílový zákazník
+- Požadované certifikace
+- Odhad životního cyklu:
+    - Kolik toho budeme vyrábět?
+    - Jak dlouho budeme vyrábět?
+@ulend
+
+---
+
+##### Před návrhem 2:
+## Projektové etapy
+
+@ul
+- Příklad rozdělení:
+    - Funkční vzorek < 10 ks
+    - Prototypová série < 100 ks
+    - Ověřovací série < 1000 ks
+    - Sériová výroba
+- Termín a množství
+- Každá fáze uzavřená oponenturou
+@ulend
+
+---
+
+#### Před návrhem 3:
+## Technologické možnosti
+
+@ul
+- Výrobce desek
+    - Prototypová výroba
+    - Sériová výroba
+- Možnosti ručního osazení
+- Sériová výroba desky
+- Požadavky na výrobní tester
+@ulend
+
+Note:
+- Zázemí RTG
+
+---
+
+##### Před návrhem 4:
+## Technická rozvaha
+
+@ul
+- Blokový diagram
+- Výběr součástek
+    - Jednání s výrobci/distributory
+- Výběr nástrojů
+- Technická specifikace
+- Oponentura
+@ulend
+
+---
+
+@snap[midpoint]
+## Fáze návrhu
+@snapend
+
+---
+
+#### Fáze návrhu 1:
+## PCB design cyklus
+
+- 1. Tvorba knihoven
+- 2. Návrh zapojení
+- 3. Rozmístění součástek
+- 4. Routing spojů
+- 5. PCB review
+- 6. Odeslání do výroby
+
+---
+
 ## Designové opatření
 
 @ul
+- Rozdíl mezi dobrou deskou a skvělou deskou
+    - Počet jejich interací
+
+- DFM by měl být od začátku procesu
 - Minimalizace lidské práce
 - Diody ve skleněném pouzdře
 - Keramické kondenzátory blízko kraji desky
@@ -234,6 +257,7 @@ Note:
 - Moduly z jedné strany
 - Minimum solder mask sliver
 - Board origin bottom left
+- Unterminated traces
 
 - malovýrobá dostupnost:
     - Bulk
