@@ -64,8 +64,8 @@ Note:
 @ul
 - 1. Skladové hospodářství
 - 2. Před návrhem
-- 3. Design fáze
-- 4. Generování podkladů
+- 3. Fáze návrhu
+- 4. Příprava podkladů
 - 5. Zadání do výroby
 @ulend
 
@@ -161,7 +161,7 @@ Note:
 ---
 
 @snap[midpoint]
-## Před návrhem
+## (2) Před návrhem
 @snapend
 
 ---
@@ -217,7 +217,7 @@ Note:
 ---
 
 @snap[midpoint]
-## Fáze návrhu
+## (3) Fáze návrhu
 @snapend
 
 ---
@@ -257,9 +257,9 @@ Note:
 @ul
 - Praktická kategorizace
 - Nezapomenout interní part number
-- Konzistentní pravidla
+- Konzistentní pravidla a důslednost
 - Konzultace s technology u výrobce
-- Správná specifikace balení:
+- Správná specifikace balení v part number:
     - Bulk, Cut Tape
     - Tape & Reel, Tray
     - DigiReel
@@ -273,7 +273,7 @@ Note:
 @ul
 - Razítko (identifikátor + revize)
 - Pojmenované všechny signály
-- Diody ve skleněném pouzdře
+- Pozor na diody ve skleněném pouzdře
 - TODO...
 @ulend
 
@@ -311,52 +311,69 @@ Note:
 - Keramické kondenzátory blízko kraji desky
     - Zvážit použití flex term přívodů
     - Mechanické namáhání nejen při separaci soulepu
+- Naváděcí díry pro jehlové pole
 @ulend
 
 ---
 
 #### Fáze návrhu 7:
-## Kontrola ERC/DRC
-
-@ul
-- "Je to jen varování"
-- Šablonové nastavení
-@ulend
-
----
-
-## Checklist před dokončením
+## Technologické náležitosti
 
 @ul
 - Označení desky (Rx.y)
 - Prostor pro trasovatelný kód
 - Značky pro OA (fiducials)
-- Badmarky
-- Osazovací plánek
-  - Poziční a hodnotový
-- Aktuální vygenerovaný ground plane
-- ERC/DRC
+- Nulová souřadnice desky v levém dolním rohu
+- Naváděcí díry pro jehlové pole
+- Místo pro "bad mark"
+- Identifikace vrstev mědi (kontrola)
 @ulend
 
 ---
 
-## Generování podkladů
+#### Fáze návrhu 8:
+## Kontrola ERC/DRC
 
 @ul
-- Prostor pro trasovatelný kód
-- Značky pro OA (fiducials)
-- Badmarky
-- Osazovací plánek
-  - Poziční a hodnotový
-- Aktuální vygenerovaný ground plane
-- ERC/DRC
+- "Je to jen varování"
+- Šablonové nastavení
+- Vygenerovat všechny polygony
+- Cíl: Nothing to do!
+- Statistiky (šířky spojů, prokovy, jména spojů)
+@ulend
+
+Note:
+- Dodatečný prokov na spojení zemí a jeho odvrtávání
+
+---
+
+@snap[midpoint]
+## (4) Příprava podkladů
+@snapend
+
+---
+
+#### Příprava podkladů 1:
+## Přehled dokumentace
+
+@ul
+- Soupiska součástek (BOM)
+- Gerber + NC drill data
+- Specifikace vrstev
+- Výkres panelizace
+- Seznam pozic (Pick and place)
+- Osazovací plánky (poziční/hodnotové)
+- Popis oživení a testování
 @ulend
 
 ---
 
-## Generování Gerber
+#### Příprava podkladů 2:
+## Gerber + NC drill data
 
 @ul
+- Aktuální vygenerovaný ground plane
+- ERC/DRC
 - Obrys desky
 - Frézování (pokovené/nepokovené)
 - Měď všechny vrstvy
@@ -367,8 +384,10 @@ Note:
 
 ---
 
+#### Příprava podkladů 3:
 ## Panelizace desky
 
+@ul
 - Jeden design na panel
 - Optimalizace obrysu
 - Typy separace
@@ -380,11 +399,20 @@ Note:
     - Po krajích zhruba 10 mm
     - Montážní díry
     - Pomocné využití - testování řízené impedance
+@ulend
 
 ---
 
-## Výroba desky
+@snap[midpoint]
+## (5) Zadání do výroby
+@snapend
 
+---
+
+#### Zadání do výroby 1:
+## Objednání DPS
+
+@ul
 - Název desky, počet kusů, termín
 - Technologie
     - Počet vrstev + layer stack
@@ -392,41 +420,15 @@ Note:
     - Povrchová úprava
     - Testování
 - Výrobní data
-
----
-
-- Optimalizace obrysu
-- Typy separace
-    - V-drážky (V Grooving)
-    - Frézování (Milling)
-    - Můstky (Tab breakout)
-- Technologické okolí
-    - "Tooling strip"
-    - Po krajích zhruba 10 mm
-    - Montážní díry
-    - Pomocné využití - testování řízené impedance
-
----
-
-## Výrobní dokumentace
-
-@ul
-- Gerber
-- NC Drill
-- PCB stack
-- Panelizace
-- Part list
-- BOM
-- Osazovací plánky
-    - Poziční
-    - Hodnotové
-- Popis oživení
-- Popis testování
 @ulend
 
+Note:
+- Vyrobili jsme 6vrstvou desku se 4 vrstvami.
+
 ---
 
-## Specifikace výroby
+#### Zadání do výroby 2:
+## Objednání výroby
 
 @ul
 - Označení zakázky
@@ -443,11 +445,12 @@ Note:
 @ulend
 
 Note:
-- FUCKUP: Nejednou jsme jeli do Pragoboardu pro planžetu.
+- Nejednou jsme jeli do Pragoboardu pro planžetu.
 
 ---
 
-## Sledování výroby
+#### Zadání do výroby 3:
+## Sledování zakázky
 
 @ul
 - Potvrzení přijetí zakázky
@@ -458,16 +461,21 @@ Note:
     - Plnění subdodávek
 @ulend
 
+Note:
+- Stalo se nám, že vše bylo vykomunikováno, ale neuskutečnilo se "GO".
+
 ---
 
-## Převzetí zakázky
+#### Zadání do výroby 4:
+## Předání zakázky
 
 @ul
 - Předávací protokol
 - Servisní operace
     - Testery
-- Zpětná vazba výrobci
-- Zpětná vazba zadavateli
+- Zpětná vazba:
+    - Výrobci
+    - Objednateli
     - Konstruktérovi
 @ulend
 
