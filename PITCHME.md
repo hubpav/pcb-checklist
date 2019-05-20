@@ -4,8 +4,8 @@
 ### Pavel Hübner
 
 HARDWARIO s.r.o.<br>
+E-mail: pavel.hubner@hardwario.com<br>
 Twitter: @pavelhubner<br>
-GitHub: github.com/hubpav<br>
 
 @snapend
 
@@ -33,6 +33,9 @@ Note:
 - 4. Nechceme opakovat stejné chyby
 @ulend
 
+Note:
+- Od určitého objemu se chyby stávají
+
 ---
 
 #### Úvod 2:
@@ -48,12 +51,13 @@ Note:
 @ulend
 
 Note:
-
 - Trasovatelnost:
     - Analýza poruch
     - Servis a reklamace
 - Kvalita:
     - Vnímání designér x výrobce
+- Dostupnost:
+    - Mění se v čase
 ---
 
 #### Úvod 3:
@@ -79,10 +83,15 @@ Note:
 ## Centrální databáze
 
 @ul
+- Nutnost na víc než jeden projekt
 - Propojení na ECAD
 - Propojení na generování výstupů
 - Vazba na nákup, výrobu, obchod
 @ulend
+
+Note:
+- TODO Screenshoty
+- Jiné vnímání na IČO, startup, korporace
 
 ---
 
@@ -94,8 +103,11 @@ Note:
     - Uvedení kategorie (IC,R,C,BAT,...)
     - Příklad: HIO-IC-TMP112
 - Stav součástky
-    - NEW/ACT/NRND/EOL
-- Osazovací popisek
+    - NEW = nová, neověřená
+    - ACT = aktivní, ověřená a používaná
+    - NRD = nedoporučená pro nové designy
+    - EOL = konec životnosti
+- Osazovací popisek (např. 100 nF)
     - Pomáhá při ručním osazení
 @ulend
 
@@ -114,6 +126,7 @@ Note:
     - Označení (0402,SOIC-8)
     - Montážní technologie (SMT/THT)
 - Aktuální zásoba (umístění)
+    - Datum naskladění (nutné pro sledování expirace)
 @ulend
 
 Note:
@@ -127,10 +140,10 @@ Note:
 @ul
 - Výrobce (n)
     - Jméno + kontakt
-    - Interní označení
+    - Part number výrobce
 - Dodavatel (n)
     - Jméno + kontakt
-    - Interní označení
+    - Part number dodavatele
     - MOQ, MPU, L/T
     - Ceny (EUR/USD/CZK)
 @ulend
@@ -140,6 +153,9 @@ Note:
 - Více výrobců
 - Více dodavatelů
 - Ceny v čase
+- Důležitá je přesnost
+- Kompromis mezi cenou a dostupností
+- Dlouhé čekací lhůty
 
 ---
 
@@ -155,6 +171,9 @@ Note:
 - Ve výrobní fázi:
     - Dostupnost
 @ulend
+
+Note:
+- Průběžný proces
 
 ---
 
@@ -177,6 +196,8 @@ Note:
     - Jak dlouho budeme vyrábět?
 @ulend
 
+Note:
+
 ---
 
 ##### Před návrhem 2:
@@ -191,6 +212,8 @@ Note:
 - Termín a množství
 - Oponentura před/po každé etapě
 @ulend
+
+Note:
 
 ---
 
@@ -250,18 +273,36 @@ Note:
 ---
 
 #### Fáze návrhu 3:
-## Tvorba knihoven
+## Tvorba knihoven I.
 
 @ul
 - Praktická kategorizace
-- Nezapomenout interní part number
+- Přiřadit interní part number
 - Konzistentní pravidla a důslednost
-- Konzultace s technology u výrobce
 - Správná specifikace balení v part number:
-    - Bulk, Cut Tape
-    - Tape & Reel, Tray
-    - DigiReel
+    - Bulk, Cut Tape, DigiReel
+    - Tube, Tape & Reel, Tray
 @ulend
+
+Note:
+- Pohlídat, že např. konektory mají osazovací čepičky
+
+---
+
+#### Fáze návrhu 4:
+## Tvorba knihoven II.
+
+@ul
+- V názvu pouzdra specifikace technologie pájení:
+    - Suffix _T pro manuální montáž
+    - Suffix _R pro SMT montáž - pájení reflow
+    - Suffix _W pro SMT montáž - pájení vlnou
+- Konzultace s technology u výrobce
+
+@ulend
+
+Note:
+- Pohlídat, že např. konektory mají osazovací čepičky
 
 ---
 
@@ -272,7 +313,7 @@ Note:
 - Razítko (identifikátor + revize)
 - Pojmenované všechny signály
 - Pozor na diody ve skleněném pouzdře
-- TODO...
+- I2C adresy do schématu pod součástky
 @ulend
 
 ---
@@ -318,11 +359,20 @@ Note:
 ## Technologické náležitosti
 
 @ul
-- Označení desky (Rx.y)
+- Číslo revize desky např. formát Rx.y
+    - x = major číslo (mění kompatibilita)
+    - y = minor číslo (oprava, drobné vylepšení)
+    - V případě verzovacího systému vytvořit tag
+    - Např.: `hio-soil-sensor-r1.3`
 - Prostor pro trasovatelný kód
-- Značky pro OA (fiducials)
+    - Speciální vrstva - součást Gerber dat výrobci
+- Značky pro osazovací automat (fiducials)
+    - Kulatý pad o průměru 1 mm
+    - Odmaskování o průměru 2 mm
+    - Restrict na ostatní měď o průměru 2.4 mm
 - Nulová souřadnice desky v levém dolním rohu
-- Naváděcí díry pro jehlové pole
+    - Někteří výrobci mají problém se zápornými souřadnicemi
+- Naváděcí díry pro jehlové pole (min. průměr trnu 3 mm, díra 3.2 mm)
 - Místo pro "bad mark"
 - Identifikace vrstev mědi (kontrola)
 @ulend
