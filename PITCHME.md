@@ -3,11 +3,9 @@
 # PCB CHECKLIST
 ### Pavel Hübner
 
-HARDWARIO s.r.o.
-
-Twitter: @pavelhubner
-
-GitHub: github.com/hubpav
+HARDWARIO s.r.o.<br>
+Twitter: @pavelhubner<br>
+GitHub: github.com/hubpav<br>
 
 @snapend
 
