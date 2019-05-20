@@ -308,10 +308,10 @@ Note:
 ## Tvorba knihoven I.
 
 @ul
-- Praktická kategorizace
-- Přiřadit interní part number
+- Praktická kategorizace (hio-resistors, hio-capacitors, hio-microcontrollers, ...)
+- Přiřazení interního skladovacího čísla
 - Konzistentní pravidla a důslednost
-- Správná specifikace balení v part number:
+- Správná specifikace balení v označení součástky:
     - Bulk, Cut Tape, DigiReel
     - Tube, Tape & Reel, Tray
 @ulend
@@ -420,15 +420,13 @@ Note:
 - Unterminated traces
 @ulend
 
-
-
 - Keramické kondenzátory blízko kraji desky
 - Naváděcí díry pro jehlové pole
 
 ---
 
 #### Fáze návrhu 8:
-## Technologické náležitosti I.
+## Náležitosti I.
 
 @ul
 - Označení desky
@@ -443,7 +441,7 @@ Note:
 ---
 
 #### Fáze návrhu 9:
-## Technologické náležitosti II.
+## Náležitosti II.
 
 @ul
 - Prostor pro trasovatelný kód
@@ -454,7 +452,7 @@ Note:
 ---
 
 #### Fáze návrhu 8:
-## Technologické náležitosti III.
+## Náležitosti III.
 
 @ul
 - Značky pro osazovací automat (fiducials)
