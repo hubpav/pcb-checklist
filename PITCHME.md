@@ -84,7 +84,7 @@ Note:
 
 @ul
 - Jakákoliv forma databáze, jenž obsahuje informace o vše použitých součástkách
-- Od složitého ERP systému až po Google Sheets
+- Od komplexního ERP systému až po Google Sheets
 - Nutnost na víc než jeden projekt
 - Výhodou propojení na ECAD
 - Propojení na generování výstupů
