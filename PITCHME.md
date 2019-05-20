@@ -101,7 +101,16 @@ Note:
 #### Skladové hospodářství 2:
 ## Centrální databáze II.
 
-
+@ul
+- Nástroj v HARDWARIO
+- GitLab (repo hardware) + GitLab CI (continuous integration)
+- Python skript
+    - Spouštění na commit nebo ručně (lokálně)
+    - Vstup: Databáze, knihovny, projekty
+    - Výstup: Knihovny, projektový BOM
+- Pomáhá při plánování - tabulka požadovaných množství
+    - Výstup: Souhrnný BOM
+@ulend
 
 ---
 
