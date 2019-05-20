@@ -12,7 +12,7 @@ Twitter: @pavelhubner<br>
 ---
 
 @snap[midpoint]
-## Úvod
+## @color[#ADFF2F](Úvod)
 @snapend
 
 Note:
@@ -23,7 +23,7 @@ Note:
 
 ---
 
-#### @color[#87CEFA](Úvod 1:)
+#### @color[#87cefa](Úvod 1:)
 ## @color[orange](Důvod pro checklist)
 
 @ul
@@ -38,7 +38,7 @@ Note:
 
 ---
 
-#### @color[#87CEFA](Úvod 2:)
+#### @color[#87cefa](Úvod 2:)
 ## @color[orange](Svatý grál výroby)
 
 @ul
@@ -60,7 +60,7 @@ Note:
     - Mění se v čase
 ---
 
-#### @color[#87CEFA](Úvod 3:)
+#### @color[#87cefa](Úvod 3:)
 ## @color[orange](Struktura prezentace)
 
 @ul
@@ -74,13 +74,13 @@ Note:
 ---
 
 @snap[midpoint]
-#### @color[#87CEFA](Část 1:)
+#### @color[#87cefa](Část 1:)
 ## Skladové hospodářství
 @snapend
 
 ---
 
-#### @color[#87CEFA](Skladové hospodářství 1:)
+#### @color[#87cefa](Skladové hospodářství 1:)
 ## @color[orange](Centrální databáze I.)
 
 @ul
@@ -99,7 +99,7 @@ Note:
 
 ---
 
-#### @color[#87CEFA](Skladové hospodářství 2:)
+#### @color[#87cefa](Skladové hospodářství 2:)
 ## @color[orange](Centrální databáze II.)
 
 @ul
@@ -115,7 +115,7 @@ Note:
 
 ---
 
-#### @color[#87CEFA](Skladové hospodářství 3:)
+#### @color[#87cefa](Skladové hospodářství 3:)
 ## @color[orange](Struktura databáze 1/3)
 
 @ul
@@ -132,7 +132,7 @@ Note:
 
 ---
 
-#### @color[#87CEFA](Skladové hospodářství 4:)
+#### @color[#87cefa](Skladové hospodářství 4:)
 ## @color[orange](Struktura databáze 2/3)
 
 @ul
@@ -151,7 +151,7 @@ Note:
 
 ---
 
-#### @color[#87CEFA](Skladové hospodářství 5:)
+#### @color[#87cefa](Skladové hospodářství 5:)
 ## @color[orange](Struktura databáze 3/3)
 
 @ul
@@ -176,7 +176,7 @@ Note:
 
 ---
 
-#### @color[#87CEFA](Skladové hospodářství 6:)
+#### @color[#87cefa](Skladové hospodářství 6:)
 ## @color[orange](Optimalizace součástek)
 
 @ul
@@ -195,13 +195,13 @@ Note:
 ---
 
 @snap[midpoint]
-#### @color[#87CEFA](Část 2:)
+#### @color[#87cefa](Část 2:)
 ## @color[orange](Před návrhem)
 @snapend
 
 ---
 
-##### @color[#87CEFA](Před návrhem 1:)
+##### @color[#87cefa](Před návrhem 1:)
 ## @color[orange](Projektová šablona)
 
 @ul
@@ -218,7 +218,7 @@ Note:
 
 ---
 
-##### @color[#87CEFA](Před návrhem 2:)
+##### @color[#87cefa](Před návrhem 2:)
 ## @color[orange](Výrobní etapy I.)
 
 @ul
@@ -235,7 +235,7 @@ Note:
 
 ---
 
-##### @color[#87CEFA](Před návrhem 3:)
+##### @color[#87cefa](Před návrhem 3:)
 ## @color[orange](Výrobní etapy II.)
 
 @ul
@@ -250,7 +250,7 @@ Note:
 
 ---
 
-#### @color[#87CEFA](Před návrhem 4:)
+#### @color[#87cefa](Před návrhem 4:)
 ## @color[orange](Technologické možnosti)
 
 @ul
@@ -271,13 +271,13 @@ Note:
 ---
 
 @snap[midpoint]
-#### @color[#87CEFA](Část 3:)
+#### @color[#87cefa](Část 3:)
 ## @color[orange](Fáze návrhu)
 @snapend
 
 ---
 
-##### @color[#87CEFA](Fáze návrhu 1:)
+##### @color[#87cefa](Fáze návrhu 1:)
 ## @color[orange](Technická rozvaha)
 
 @ul
@@ -291,7 +291,7 @@ Note:
 
 ---
 
-#### @color[#87CEFA](Fáze návrhu 2:)
+#### @color[#87cefa](Fáze návrhu 2:)
 ## @color[orange](Návrhový cyklus desky)
 
 @ul
@@ -306,7 +306,7 @@ Note:
 
 ---
 
-#### @color[#87CEFA](Fáze návrhu 3:)
+#### @color[#87cefa](Fáze návrhu 3:)
 ## @color[orange](Tvorba knihoven I.)
 
 @ul
@@ -323,7 +323,7 @@ Note:
 
 ---
 
-#### @color[#87CEFA](Fáze návrhu 4:)
+#### @color[#87cefa](Fáze návrhu 4:)
 ## @color[orange](Tvorba knihoven II.)
 
 @ul
@@ -343,7 +343,7 @@ Note:
 
 ---
 
-#### @color[#87CEFA](Fáze návrhu 5:)
+#### @color[#87cefa](Fáze návrhu 5:)
 ## @color[orange](Tvorba schématu I.)
 
 @ul
@@ -358,7 +358,7 @@ Note:
 
 ---
 
-#### @color[#87CEFA](Fáze návrhu 6:)
+#### @color[#87cefa](Fáze návrhu 6:)
 ## @color[orange](Tvorba schématu II.)
 
 @ul
@@ -368,7 +368,7 @@ Note:
 
 ---
 
-#### @color[#87CEFA](Fáze návrhu 7:)
+#### @color[#87cefa](Fáze návrhu 7:)
 ## @color[orange](Návrh spojů I.)
 
 @ul
@@ -382,7 +382,7 @@ Note:
 
 ---
 
-#### @color[#87CEFA](Fáze návrhu 8:)
+#### @color[#87cefa](Fáze návrhu 8:)
 ## @color[orange](Návrh spojů II.)
 
 @ul
@@ -396,7 +396,7 @@ Note:
 
 ---
 
-#### @color[#87CEFA](Fáze návrhu 9:)
+#### @color[#87cefa](Fáze návrhu 9:)
 ## @color[orange](Návrh spojů III.)
 
 @ul
@@ -418,7 +418,7 @@ Note:
 
 ---
 
-#### @color[#87CEFA](Fáze návrhu 10:)
+#### @color[#87cefa](Fáze návrhu 10:)
 ## @color[orange](Náležitosti I.)
 
 @ul
@@ -433,7 +433,7 @@ Note:
 
 ---
 
-#### @color[#87CEFA](Fáze návrhu 11:)
+#### @color[#87cefa](Fáze návrhu 11:)
 ## @color[orange](Náležitosti II.)
 
 @ul
@@ -445,7 +445,7 @@ Note:
 
 ---
 
-#### @color[#87CEFA](Fáze návrhu 12:)
+#### @color[#87cefa](Fáze návrhu 12:)
 ## @color[orange](Náležitosti III.)
 
 @ul
@@ -460,8 +460,8 @@ Note:
 
 ---
 
-#### @color[#87CEFA](Fáze návrhu 13:)
-## @color[orange](Technologické náležitosti IV.)
+#### @color[#87cefa](Fáze návrhu 13:)
+## @color[orange](Náležitosti IV.)
 
 @ul
 - Místo pro "bad mark"
@@ -475,7 +475,7 @@ Note:
 
 ---
 
-#### @color[#87CEFA](Fáze návrhu 14:)
+#### @color[#87cefa](Fáze návrhu 14:)
 ## @color[orange](Kontrola ERC/DRC)
 
 @ul
@@ -493,13 +493,13 @@ Note:
 ---
 
 @snap[midpoint]
-#### @color[#87CEFA](Část 4:)
+#### @color[#87cefa](Část 4:)
 ## @color[orange](Příprava podkladů)
 @snapend
 
 ---
 
-#### @color[#87CEFA](Příprava podkladů 1:)
+#### @color[#87cefa](Příprava podkladů 1:)
 ## @color[orange](Přehled dokumentace)
 
 @ul
@@ -514,7 +514,7 @@ Note:
 
 ---
 
-#### @color[#87CEFA](Příprava podkladů 2:)
+#### @color[#87cefa](Příprava podkladů 2:)
 ## @color[orange](Gerber + NC drill data)
 
 @ul
@@ -530,7 +530,7 @@ Note:
 
 ---
 
-#### @color[#87CEFA](Příprava podkladů 3:)
+#### @color[#87cefa](Příprava podkladů 3:)
 ## @color[orange](Panelizace desky I.)
 
 @ul
@@ -544,7 +544,7 @@ Note:
 
 ---
 
-#### @color[#87CEFA](Příprava podkladů 4:)
+#### @color[#87cefa](Příprava podkladů 4:)
 ## @color[orange](Panelizace desky II.)
 
 @ul
@@ -559,13 +559,13 @@ Note:
 ---
 
 @snap[midpoint]
-#### @color[#87CEFA](Část 5:)
+#### @color[#87cefa](Část 5:)
 ## @color[orange](Zadání do výroby)
 @snapend
 
 ---
 
-#### @color[#87CEFA](Zadání do výroby 1:)
+#### @color[#87cefa](Zadání do výroby 1:)
 ## @color[orange](Objednání DPS)
 
 @ul
@@ -583,7 +583,7 @@ Note:
 
 ---
 
-#### @color[#87CEFA](Zadání do výroby 2:)
+#### @color[#87cefa](Zadání do výroby 2:)
 ## @color[orange](Objednání výroby)
 
 @ul
@@ -605,7 +605,7 @@ Note:
 
 ---
 
-#### @color[#87CEFA](Zadání do výroby 3:)
+#### @color[#87cefa](Zadání do výroby 3:)
 ## @color[orange](Sledování zakázky)
 
 @ul
@@ -622,7 +622,7 @@ Note:
 
 ---
 
-#### @color[#87CEFA](Zadání do výroby 4:)
+#### @color[#87cefa](Zadání do výroby 4:)
 ## @color[orange](Předání zakázky)
 
 @ul
