@@ -226,7 +226,7 @@ Note:
     - Ověřovací série < 1000 ks
     - Sériová výroba
 - Rozdělení podle ceny a složitosti
-- U každé etapy je potřeba znát termín
+- Každá etapa má stanovený termín plnění
 @ulend
 
 Note:
@@ -283,7 +283,7 @@ Note:
     - Jednání s výrobci/distributory
 - Výběr nástrojů
 - Technická specifikace
-- Oponentura
+- Oponentura technického konceptu
 @ulend
 
 ---
@@ -344,18 +344,18 @@ Note:
 ## Tvorba schématu I.
 
 @ul
-- Razítko (identifikátor + revize + autor)
 - Pojmenované všechny signály
 - Tip: I2C adresy do schématu
     - Nástroj na extrahování I2C adres
 - Vhodné umístění komentářů, např.:
     - Mezní kmitočet filtru
     - Napětí na referenci
+- Mechanické komponenty součástí schématu
 @ulend
 
 ---
 
-#### Fáze návrhu 4:
+#### Fáze návrhu 5:
 ## Tvorba schématu II.
 
 @ul
@@ -365,7 +365,7 @@ Note:
 
 ---
 
-#### Fáze návrhu 5:
+#### Fáze návrhu 6:
 ## Návrh spojů I.
 
 @ul
@@ -383,7 +383,7 @@ Note:
 
 ---
 
-#### Fáze návrhu 6:
+#### Fáze návrhu 7:
 ## Návrh spojů II.
 
 @ul
@@ -402,7 +402,7 @@ Note:
 
 ---
 
-#### Fáze návrhu 7:
+#### Fáze návrhu 8:
 ## Návrh spojů III.
 
 @ul
@@ -424,7 +424,7 @@ Note:
 
 ---
 
-#### Fáze návrhu 8:
+#### Fáze návrhu 9:
 ## Náležitosti I.
 
 @ul
@@ -439,7 +439,7 @@ Note:
 
 ---
 
-#### Fáze návrhu 9:
+#### Fáze návrhu 10:
 ## Náležitosti II.
 
 @ul
@@ -450,7 +450,7 @@ Note:
 
 ---
 
-#### Fáze návrhu 8:
+#### Fáze návrhu 11:
 ## Náležitosti III.
 
 @ul
@@ -465,7 +465,7 @@ Note:
 
 ---
 
-#### Fáze návrhu 9:
+#### Fáze návrhu 12:
 ## Technologické náležitosti IV.
 
 @ul
@@ -480,7 +480,7 @@ Note:
 
 ---
 
-#### Fáze návrhu 10:
+#### Fáze návrhu 13:
 ## Kontrola ERC/DRC
 
 @ul
@@ -510,7 +510,7 @@ Note:
 - Gerber + NC drill data
 - Specifikace vrstev
 - Výkres panelizace
-- Seznam pozic (Pick and place)
+- Seznam pozic (pick and place)
 - Osazovací plánky (poziční/hodnotové)
 - Popis oživení a testování
 @ulend
