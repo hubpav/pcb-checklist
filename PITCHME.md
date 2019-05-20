@@ -127,8 +127,6 @@ Note:
     - ACT = aktivní, ověřená a používaná
     - NRD = aktivní, ale ne pro nové designy
     - EOL = konec životnosti
-- Osazovací popisek (např. 100 nF)
-    - Pomáhá při ručním osazení
 @ulend
 
 ---
@@ -144,6 +142,7 @@ Note:
 - Aktuální stav skladu
     - Zásoba a umístění
     - Datum naskladění (nutné pro sledování expirace)
+- Osazovací popisek (např. 100 nF) - pro ruční osazení
 @ulend
 
 Note:
