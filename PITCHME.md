@@ -1,12 +1,12 @@
 @snap[midpoint]
-
 # PCB CHECKLIST
 ### Pavel Hübner
-
 HARDWARIO s.r.o.<br>
+@snapend
+
+@snap[south]
 E-mail: pavel.hubner@hardwario.com<br>
 Twitter: @pavelhubner<br>
-
 @snapend
 
 ---
@@ -100,19 +100,17 @@ Note:
 
 @ul
 - Interní part number
+    - Primární klíč každé součástky
     - Uvedení kategorie (IC,R,C,BAT,...)
     - Příklad: HIO-IC-TMP112
 - Stav součástky
     - NEW = nová, neověřená
     - ACT = aktivní, ověřená a používaná
-    - NRD = nedoporučená pro nové designy
+    - NRD = aktivní, ale ne pro nové designy
     - EOL = konec životnosti
 - Osazovací popisek (např. 100 nF)
     - Pomáhá při ručním osazení
 @ulend
-
-Note:
-- Interní part number = klíč
 
 ---
 
@@ -120,7 +118,8 @@ Note:
 ## Struktura databáze 2/3
 
 @ul
-- Stručný popis
+- Stručný popis, např.: z headline datasheetu
+    - TMP112x High-Accuracy, Low-Power, Digital Temperature Sensors With SMBus and Two-Wire Serial Interface in SOT563
 - Přílohy (výkresy, datasheety, atd.)
 - Pouzdro
     - Označení (0402,SOIC-8)
@@ -138,10 +137,10 @@ Note:
 ## Struktura databáze 3/3
 
 @ul
-- Výrobce (n)
+- Výrobce (může být více)
     - Jméno + kontakt
     - Part number výrobce
-- Dodavatel (n)
+- Dodavatel (může být více)
     - Jméno + kontakt
     - Part number dodavatele
     - MOQ, MPU, L/T
