@@ -638,7 +638,7 @@ Note:
 ---
 
 @snap[midpoint]
-## @colot[#adff2f](Diskuze)
+## @color[#adff2f](Diskuze)
 @snapend
 
 ---
