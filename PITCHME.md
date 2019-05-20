@@ -116,7 +116,7 @@ Note:
 ---
 
 #### @color[#87cefa](Skladové hospodářství 3:)
-## @color[orange](Struktura databáze 1/3)
+## @color[orange](Struktura databáze I.)
 
 @ul
 - Interní part number
@@ -133,7 +133,7 @@ Note:
 ---
 
 #### @color[#87cefa](Skladové hospodářství 4:)
-## @color[orange](Struktura databáze 2/3)
+## @color[orange](Struktura databáze II.)
 
 @ul
 - Stručný popis, např. podtitulek z datasheetu
@@ -152,7 +152,7 @@ Note:
 ---
 
 #### @color[#87cefa](Skladové hospodářství 5:)
-## @color[orange](Struktura databáze 3/3)
+## @color[orange](Struktura databáze III.)
 
 @ul
 - Výrobce (může být více)
