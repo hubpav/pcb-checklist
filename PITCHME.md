@@ -103,7 +103,8 @@ Note:
 
 @ul
 - Nástroj v HARDWARIO
-- GitLab (repo hardware) + GitLab CI (continuous integration)
+- GitLab (repozitář hardware a knihoven)
+- GitLab CI (continuous integration)
 - Python skript
     - Spouštění na commit nebo ručně (lokálně)
     - Vstup: Databáze, knihovny, projekty
@@ -239,7 +240,7 @@ Note:
 @ul
 - Od termínu se stanoví harmonogram
 - Příklad plánování pro ověřovací sérii 500 ks
-    - 3 měsíce nákup materiálu
+    - 12-16 týdnů nákup materiálu
     - 3 týdny výroba desky
     - 2 týdny osazení
     - 2 týdny oživení
