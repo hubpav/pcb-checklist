@@ -1,7 +1,7 @@
 @snap[midpoint]
-# PCB CHECKLIST
-### Pavel Hübner
-HARDWARIO s.r.o.<br>
+## PCB CHECKLIST
+#### Pavel Hübner
+##### HARDWARIO s.r.o.
 @snapend
 
 @snap[south span-100]
@@ -315,7 +315,9 @@ Note:
 ## Tvorba knihoven II.
 
 @ul
-- RefDes součástky - [odkaz](https://en.wikipedia.org/wiki/Reference_designator)
+- Prefixy součástky
+    - Reference Designator / Name
+    - [Inspirace vycházející ze standardů](https://en.wikipedia.org/wiki/Reference_designator)
 - V názvu pouzdra specifikace technologie pájení:
     - Suffix _T pro manuální montáž
     - Suffix _R pro SMT montáž - pájení reflow
@@ -337,7 +339,7 @@ Note:
 - Pojmenované všechny signály
 - Tip: I2C adresy do schématu
     - Nástroj na extrahování I2C adres
-- Vhodné umístění komentářů
+- Vhodné umístění komentářů, např.:
     - Mezní kmitočet filtru
     - Napětí na referenci
 @ulend
