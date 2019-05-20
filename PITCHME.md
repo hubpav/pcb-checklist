@@ -340,7 +340,7 @@ Note:
 
 ---
 
-#### Fáze návrhu 4:
+#### Fáze návrhu 5:
 ## Tvorba schématu I.
 
 @ul
@@ -355,7 +355,7 @@ Note:
 
 ---
 
-#### Fáze návrhu 5:
+#### Fáze návrhu 6:
 ## Tvorba schématu II.
 
 @ul
@@ -365,7 +365,7 @@ Note:
 
 ---
 
-#### Fáze návrhu 6:
+#### Fáze návrhu 7:
 ## Návrh spojů I.
 
 @ul
@@ -383,7 +383,7 @@ Note:
 
 ---
 
-#### Fáze návrhu 7:
+#### Fáze návrhu 8:
 ## Návrh spojů II.
 
 @ul
@@ -402,7 +402,7 @@ Note:
 
 ---
 
-#### Fáze návrhu 8:
+#### Fáze návrhu 9:
 ## Návrh spojů III.
 
 @ul
@@ -424,7 +424,7 @@ Note:
 
 ---
 
-#### Fáze návrhu 9:
+#### Fáze návrhu 10:
 ## Náležitosti I.
 
 @ul
@@ -439,7 +439,7 @@ Note:
 
 ---
 
-#### Fáze návrhu 10:
+#### Fáze návrhu 11:
 ## Náležitosti II.
 
 @ul
@@ -450,7 +450,7 @@ Note:
 
 ---
 
-#### Fáze návrhu 11:
+#### Fáze návrhu 12:
 ## Náležitosti III.
 
 @ul
@@ -465,7 +465,7 @@ Note:
 
 ---
 
-#### Fáze návrhu 12:
+#### Fáze návrhu 13:
 ## Technologické náležitosti IV.
 
 @ul
@@ -480,7 +480,7 @@ Note:
 
 ---
 
-#### Fáze návrhu 13:
+#### Fáze návrhu 14:
 ## Kontrola ERC/DRC
 
 @ul
