@@ -1,7 +1,7 @@
 @snap[midpoint]
-## PCB CHECKLIST
-#### Pavel Hübner
-##### HARDWARIO s.r.o.
+## @color[#adff2f](PCB CHECKLIST)
+#### @color[orange](Pavel Hübner)
+##### @color[#87cefa](HARDWARIO s.r.o.)
 @snapend
 
 @snap[south span-100]
@@ -12,7 +12,7 @@ Twitter: @pavelhubner<br>
 ---
 
 @snap[midpoint]
-## @color[#ADFF2F](Úvod)
+## @color[#adff2f](Úvod)
 @snapend
 
 Note:
@@ -75,7 +75,7 @@ Note:
 
 @snap[midpoint]
 #### @color[#87cefa](Část 1:)
-## Skladové hospodářství
+## @color[#adff2f](Skladové hospodářství)
 @snapend
 
 ---
@@ -196,7 +196,7 @@ Note:
 
 @snap[midpoint]
 #### @color[#87cefa](Část 2:)
-## @color[orange](Před návrhem)
+## @color[#adff2f](Před návrhem)
 @snapend
 
 ---
@@ -272,7 +272,7 @@ Note:
 
 @snap[midpoint]
 #### @color[#87cefa](Část 3:)
-## @color[orange](Fáze návrhu)
+## @color[#adff2f](Fáze návrhu)
 @snapend
 
 ---
@@ -494,7 +494,7 @@ Note:
 
 @snap[midpoint]
 #### @color[#87cefa](Část 4:)
-## @color[orange](Příprava podkladů)
+## @color[#adff2f](Příprava podkladů)
 @snapend
 
 ---
@@ -560,7 +560,7 @@ Note:
 
 @snap[midpoint]
 #### @color[#87cefa](Část 5:)
-## @color[orange](Zadání do výroby)
+## @color[#adff2f](Zadání do výroby)
 @snapend
 
 ---
@@ -638,7 +638,7 @@ Note:
 ---
 
 @snap[midpoint]
-## Diskuze
+## @colot[#adff2f](Diskuze)
 @snapend
 
 ---
