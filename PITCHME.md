@@ -80,14 +80,15 @@ Note:
 ---
 
 #### Skladové hospodářství 1:
-## Centrální databáze
+## Centrální databáze I.
 
 @ul
 - Jakákoliv forma databáze, jenž obsahuje informace o vše použitých součástkách
 - Od komplexního ERP systému až po Google Sheets
 - Nutnost na víc než jeden projekt
 - Výhodou propojení na ECAD
-- Propojení na generování výstupů
+    - Pro informace do knihoven
+    - Pro generování výstupů
 - Vazba na nákup, výrobu, obchod
 @ulend
 
@@ -98,7 +99,8 @@ Note:
 ---
 
 #### Skladové hospodářství 2:
-## Centrální databáze
+## Centrální databáze II.
+
 
 
 ---
@@ -126,12 +128,11 @@ Note:
 ## Struktura databáze 2/3
 
 @ul
-- Stručný popis, např.: z datasheetu
+- Stručný popis, např. podtitulek z datasheetu
 - Přílohy (výkresy, datasheety, atd.)
-- Pouzdro
-    - Označení (0402,SOIC-8)
+- Označení pouzdra (0402, SOIC-8)
     - Montážní technologie (SMT/THT)
-- Aktuální stav skladuz
+- Aktuální stav skladu
     - Zásoba a umístění
     - Datum naskladění (nutné pro sledování expirace)
 @ulend
