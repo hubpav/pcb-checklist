@@ -228,6 +228,7 @@ Note:
 ##### Před návrhem 3:
 ## Výrobní etapy II.
 
+@ul
 - Od termínu se stanoví harmonogram
 - Příklad plánování pro ověřovací sérii 500 ks
     - 3 měsíce nákup materiálu
@@ -235,6 +236,7 @@ Note:
     - 2 týdny osazení
     - 2 týdny oživení
 - Interní oponentura před/po každé etapě
+@ulend
 
 ---
 
