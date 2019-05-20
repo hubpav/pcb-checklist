@@ -23,7 +23,7 @@ Note:
 
 ---
 
-#### Úvod 1:
+#### @color[orange](Úvod 1:)
 ## Důvod pro checklist
 
 @ul
@@ -38,7 +38,7 @@ Note:
 
 ---
 
-#### Úvod 2:
+#### @color[orange](Úvod 2:)
 ## Svatý grál výroby
 
 @ul
@@ -60,7 +60,7 @@ Note:
     - Mění se v čase
 ---
 
-#### Úvod 3:
+#### @color[orange](Úvod 3:)
 ## Struktura prezentace
 
 @ul
@@ -74,13 +74,13 @@ Note:
 ---
 
 @snap[midpoint]
-#### Část 1:
+#### @color[orange](Část 1:)
 ## Skladové hospodářství
 @snapend
 
 ---
 
-#### Skladové hospodářství 1:
+#### @color[orange](Skladové hospodářství 1:)
 ## Centrální databáze I.
 
 @ul
@@ -99,7 +99,7 @@ Note:
 
 ---
 
-#### Skladové hospodářství 2:
+#### @color[orange](Skladové hospodářství 2:)
 ## Centrální databáze II.
 
 @ul
@@ -115,7 +115,7 @@ Note:
 
 ---
 
-#### Skladové hospodářství 3:
+#### @color[orange](Skladové hospodářství 3:)
 ## Struktura databáze 1/3
 
 @ul
@@ -132,7 +132,7 @@ Note:
 
 ---
 
-#### Skladové hospodářství 4:
+#### @color[orange](Skladové hospodářství 4:)
 ## Struktura databáze 2/3
 
 @ul
@@ -151,7 +151,7 @@ Note:
 
 ---
 
-#### Skladové hospodářství 5:
+#### @color[orange](Skladové hospodářství 5:)
 ## Struktura databáze 3/3
 
 @ul
@@ -176,7 +176,7 @@ Note:
 
 ---
 
-#### Skladové hospodářství 6:
+#### @color[orange](Skladové hospodářství 6:)
 ## Optimalizace součástek
 
 @ul
@@ -195,13 +195,13 @@ Note:
 ---
 
 @snap[midpoint]
-#### Část 2:
+#### @color[orange](Část 2:)
 ## Před návrhem
 @snapend
 
 ---
 
-##### Před návrhem 1:
+##### @color[orange](Před návrhem 1:)
 ## Projektová šablona
 
 @ul
@@ -218,7 +218,7 @@ Note:
 
 ---
 
-##### Před návrhem 2:
+##### @color[orange](Před návrhem 2:)
 ## Výrobní etapy I.
 
 @ul
@@ -235,7 +235,7 @@ Note:
 
 ---
 
-##### Před návrhem 3:
+##### @color[orange](Před návrhem 3:)
 ## Výrobní etapy II.
 
 @ul
@@ -250,7 +250,7 @@ Note:
 
 ---
 
-#### Před návrhem 4:
+#### @color[orange](Před návrhem 4:)
 ## Technologické možnosti
 
 @ul
@@ -271,13 +271,13 @@ Note:
 ---
 
 @snap[midpoint]
-#### Část 3:
+#### @color[orange](Část 3:)
 ## Fáze návrhu
 @snapend
 
 ---
 
-##### Fáze návrhu 1:
+##### @color[orange](Fáze návrhu 1:)
 ## Technická rozvaha
 
 @ul
@@ -291,7 +291,7 @@ Note:
 
 ---
 
-#### Fáze návrhu 2:
+#### @color[orange](Fáze návrhu 2:)
 ## Návrhový cyklus desky
 
 @ul
@@ -306,7 +306,7 @@ Note:
 
 ---
 
-#### Fáze návrhu 3:
+#### @color[orange](Fáze návrhu 3:)
 ## Tvorba knihoven I.
 
 @ul
@@ -323,7 +323,7 @@ Note:
 
 ---
 
-#### Fáze návrhu 4:
+#### @color[orange](Fáze návrhu 4:)
 ## Tvorba knihoven II.
 
 @ul
@@ -343,7 +343,7 @@ Note:
 
 ---
 
-#### Fáze návrhu 5:
+#### @color[orange](Fáze návrhu 5:)
 ## Tvorba schématu I.
 
 @ul
@@ -358,7 +358,7 @@ Note:
 
 ---
 
-#### Fáze návrhu 6:
+#### @color[orange](Fáze návrhu 6:)
 ## Tvorba schématu II.
 
 @ul
@@ -368,7 +368,7 @@ Note:
 
 ---
 
-#### Fáze návrhu 7:
+#### @color[orange](Fáze návrhu 7:)
 ## Návrh spojů I.
 
 @ul
@@ -382,7 +382,7 @@ Note:
 
 ---
 
-#### Fáze návrhu 8:
+#### @color[orange](Fáze návrhu 8:)
 ## Návrh spojů II.
 
 @ul
@@ -396,7 +396,7 @@ Note:
 
 ---
 
-#### Fáze návrhu 9:
+#### @color[orange](Fáze návrhu 9:)
 ## Návrh spojů III.
 
 @ul
@@ -418,7 +418,7 @@ Note:
 
 ---
 
-#### Fáze návrhu 10:
+#### @color[orange](Fáze návrhu 10:)
 ## Náležitosti I.
 
 @ul
@@ -433,7 +433,7 @@ Note:
 
 ---
 
-#### Fáze návrhu 11:
+#### @color[orange](Fáze návrhu 11:)
 ## Náležitosti II.
 
 @ul
@@ -445,7 +445,7 @@ Note:
 
 ---
 
-#### Fáze návrhu 12:
+#### @color[orange](Fáze návrhu 12:)
 ## Náležitosti III.
 
 @ul
@@ -460,7 +460,7 @@ Note:
 
 ---
 
-#### Fáze návrhu 13:
+#### @color[orange](Fáze návrhu 13:)
 ## Technologické náležitosti IV.
 
 @ul
@@ -475,7 +475,7 @@ Note:
 
 ---
 
-#### Fáze návrhu 14:
+#### @color[orange](Fáze návrhu 14:)
 ## Kontrola ERC/DRC
 
 @ul
@@ -493,13 +493,13 @@ Note:
 ---
 
 @snap[midpoint]
-#### Část 4:
+#### @color[orange](Část 4:)
 ## Příprava podkladů
 @snapend
 
 ---
 
-#### Příprava podkladů 1:
+#### @color[orange](Příprava podkladů 1:)
 ## Přehled dokumentace
 
 @ul
@@ -514,7 +514,7 @@ Note:
 
 ---
 
-#### Příprava podkladů 2:
+#### @color[orange](Příprava podkladů 2:)
 ## Gerber + NC drill data
 
 @ul
@@ -530,7 +530,7 @@ Note:
 
 ---
 
-#### Příprava podkladů 3:
+#### @color[orange](Příprava podkladů 3:)
 ## Panelizace desky I.
 
 @ul
@@ -544,7 +544,7 @@ Note:
 
 ---
 
-#### Příprava podkladů 4:
+#### @color[orange](Příprava podkladů 4:)
 ## Panelizace desky II.
 
 @ul
@@ -559,13 +559,13 @@ Note:
 ---
 
 @snap[midpoint]
-#### Část 5:
+#### @color[orange](Část 5:)
 ## Zadání do výroby
 @snapend
 
 ---
 
-#### Zadání do výroby 1:
+#### @color[orange](Zadání do výroby 1:)
 ## Objednání DPS
 
 @ul
@@ -583,7 +583,7 @@ Note:
 
 ---
 
-#### Zadání do výroby 2:
+#### @color[orange](Zadání do výroby 2:)
 ## Objednání výroby
 
 @ul
@@ -605,7 +605,7 @@ Note:
 
 ---
 
-#### Zadání do výroby 3:
+#### @color[orange](Zadání do výroby 3:)
 ## Sledování zakázky
 
 @ul
@@ -622,7 +622,7 @@ Note:
 
 ---
 
-#### Zadání do výroby 4:
+#### @color[orange](Zadání do výroby 4:)
 ## Předání zakázky
 
 @ul
