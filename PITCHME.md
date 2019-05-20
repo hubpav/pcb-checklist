@@ -4,7 +4,7 @@
 HARDWARIO s.r.o.<br>
 @snapend
 
-@snap[south]
+@snap[south span-100]
 E-mail: pavel.hubner@hardwario.com<br>
 Twitter: @pavelhubner<br>
 @snapend
