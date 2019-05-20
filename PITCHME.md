@@ -109,8 +109,7 @@ Note:
     - Spouštění na commit nebo ručně (lokálně)
     - Vstup: Databáze, knihovny, projekty
     - Výstup: Knihovny, projektový BOM
-- Pomáhá při plánování - tabulka požadovaných množství
-    - Výstup: Souhrnný BOM
+- Pomáhá při plánování - tabulka požadovaných množství, výstup: souhrnný BOM
 @ulend
 
 ---
