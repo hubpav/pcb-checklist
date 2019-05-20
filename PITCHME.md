@@ -24,7 +24,7 @@ Note:
 ---
 
 #### @color[orange](Úvod 1:)
-## @color[green](Důvod pro checklist)
+## @color[#adff2f](Důvod pro checklist)
 
 @ul
 - 1. Někdo začíná a potřebuje vodítko
