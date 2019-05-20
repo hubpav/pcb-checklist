@@ -5,7 +5,7 @@ HARDWARIO s.r.o.<br>
 @snapend
 
 @snap[south span-100]
-E-mail: pavel.hubner@hardwario.com<br>
+pavel.hubner@hardwario.com<br>
 Twitter: @pavelhubner<br>
 @snapend
 
@@ -83,8 +83,11 @@ Note:
 ## Centrální databáze
 
 @ul
+- Jakákoliv forma databáze, jenž obsahuje
+  informace o vše použitých součástkách
+- Od složitého ERP systému až po Google Sheets
 - Nutnost na víc než jeden projekt
-- Propojení na ECAD
+- Výhodou propojení na ECAD
 - Propojení na generování výstupů
 - Vazba na nákup, výrobu, obchod
 @ulend
@@ -96,6 +99,12 @@ Note:
 ---
 
 #### Skladové hospodářství 2:
+## Centrální databáze
+
+
+---
+
+#### Skladové hospodářství 3:
 ## Struktura databáze 1/3
 
 @ul
@@ -114,17 +123,17 @@ Note:
 
 ---
 
-#### Skladové hospodářství 3:
+#### Skladové hospodářství 4:
 ## Struktura databáze 2/3
 
 @ul
-- Stručný popis, např.: z headline datasheetu
-    - TMP112x High-Accuracy, Low-Power, Digital Temperature Sensors With SMBus and Two-Wire Serial Interface in SOT563
+- Stručný popis, např.: z datasheetu
 - Přílohy (výkresy, datasheety, atd.)
 - Pouzdro
     - Označení (0402,SOIC-8)
     - Montážní technologie (SMT/THT)
-- Aktuální zásoba (umístění)
+- Aktuální stav skladuz
+    - Zásoba a umístění
     - Datum naskladění (nutné pro sledování expirace)
 @ulend
 
@@ -133,7 +142,7 @@ Note:
 
 ---
 
-#### Skladové hospodářství 4:
+#### Skladové hospodářství 5:
 ## Struktura databáze 3/3
 
 @ul
@@ -158,7 +167,7 @@ Note:
 
 ---
 
-#### Skladové hospodářství 5:
+#### Skladové hospodářství 6:
 ## Optimalizace součástek
 
 @ul
@@ -200,7 +209,7 @@ Note:
 ---
 
 ##### Před návrhem 2:
-## Výrobní etapy
+## Výrobní etapy I.
 
 @ul
 - Příklad rozdělení:
@@ -208,21 +217,34 @@ Note:
     - Prototypová série < 100 ks
     - Ověřovací série < 1000 ks
     - Sériová výroba
-- Termín a množství
-- Oponentura před/po každé etapě
+- Rozdělení podle ceny a složitosti
+- U každé etapy je potřeba znát termín
 @ulend
 
 Note:
 
 ---
 
-#### Před návrhem 3:
+##### Před návrhem 3:
+## Výrobní etapy II.
+
+- Od termínu se stanoví harmonogram
+- Příklad plánování pro ověřovací sérii 500 ks
+    - 3 měsíce nákup materiálu
+    - 3 týdny výroba desky
+    - 2 týdny osazení
+    - 2 týdny oživení
+- Interní oponentura před/po každé etapě
+
+---
+
+#### Před návrhem 4:
 ## Technologické možnosti
 
 @ul
 - Výrobce desek
-    - Prototypová výroba
-    - Sériová výroba
+    - Prototypová výroba - např. Gatema, Pragoboard
+    - Sériová výroba - např. MMAB
 - Možnosti ručního osazení
 - Technologické zázemí
 - Požadavky na výrobní tester
@@ -292,6 +314,7 @@ Note:
 ## Tvorba knihoven II.
 
 @ul
+- RefDes součástky - [odkaz](https://en.wikipedia.org/wiki/Reference_designator)
 - V názvu pouzdra specifikace technologie pájení:
     - Suffix _T pro manuální montáž
     - Suffix _R pro SMT montáž - pájení reflow
@@ -306,14 +329,27 @@ Note:
 ---
 
 #### Fáze návrhu 4:
-## Tvorba schématu
+## Tvorba schématu I.
 
 @ul
-- Razítko (identifikátor + revize)
+- Razítko (identifikátor + revize + autor)
 - Pojmenované všechny signály
-- Pozor na diody ve skleněném pouzdře
-- I2C adresy do schématu pod součástky
+- Tip: I2C adresy do schématu
+    - Nástroj na extrahování I2C adres
+- Vhodné umístění komentářů
+    - Mezní kmitočet filtru
+    - Napětí na referenci
 @ulend
+
+---
+
+#### Fáze návrhu 4:
+## Tvorba schématu II.
+
+@ul
+
+@ulend
+
 
 ---
 
@@ -355,34 +391,90 @@ Note:
 ---
 
 #### Fáze návrhu 7:
-## Technologické náležitosti
+## Návrh spojů III.
 
 @ul
+- Razítko (identifikátor + revize)
+- Nulová souřadnice desky v levém dolním rohu
+- Identifikátor + revize na desce
+- Minimum solder mask sliver
+- Impedanční přizpůsobení
+- Měď od kraje desky min. 0.3 mm
+- Součástky od hrany desky min. 1 mm
+    - Pozor na keramické kondenzátory min. 3 mm
+    - Mechanické namáhání nejen při separaci soulepu
+    - Zvážit použití flex term přívodů (např. AVX od 1 uF)
+- Unterminated traces
+@ulend
+
+
+
+- Keramické kondenzátory blízko kraji desky
+- Naváděcí díry pro jehlové pole
+
+---
+
+#### Fáze návrhu 8:
+## Technologické náležitosti I.
+
+@ul
+- Označení desky
+    - Názvem (SOIL SENSOR), příp. kódem (HX153)
 - Číslo revize desky např. formát Rx.y
     - x = major číslo (mění kompatibilita)
     - y = minor číslo (oprava, drobné vylepšení)
     - V případě verzovacího systému vytvořit tag
-    - Např.: `hio-soil-sensor-r1.3`
+    - Jméno tagu např.: hio-soil-sensor-r1.3
+@ulend
+
+---
+
+#### Fáze návrhu 9:
+## Technologické náležitosti II.
+
+@ul
 - Prostor pro trasovatelný kód
     - Speciální vrstva - součást Gerber dat výrobci
-- Značky pro osazovací automat (fiducials)
-    - Kulatý pad o průměru 1 mm
-    - Odmaskování o průměru 2 mm
-    - Restrict na ostatní měď o průměru 2.4 mm
-- Nulová souřadnice desky v levém dolním rohu
-    - Někteří výrobci mají problém se zápornými souřadnicemi
-- Naváděcí díry pro jehlové pole (min. průměr trnu 3 mm, díra 3.2 mm)
-- Místo pro "bad mark"
-- Identifikace vrstev mědi (kontrola)
+    - Laserové gravírování Data Matrix kódu
 @ulend
 
 ---
 
 #### Fáze návrhu 8:
+## Technologické náležitosti III.
+
+@ul
+- Značky pro osazovací automat (fiducials)
+    - Kulatý pad o průměru 1 mm
+    - Odmaskování o průměru 2 mm
+    - Restrict na okolí o průměru 2.4 mm
+- Nulová souřadnice desky v levém dolním rohu
+    - Někteří výrobci mají problém se zápornými souřadnicemi
+- Naváděcí díry pro jehlové pole (min. průměr trnu 3 mm, díra 3.2 mm)
+@ulend
+
+---
+
+#### Fáze návrhu 9:
+## Technologické náležitosti IV.
+
+@ul
+- Místo pro "bad mark"
+    - Možnost ručně označit defektní DPS v soulepu
+    - Uplatnění již od výrobce DPS
+    - Odmaskovaný čtverec v mědi 10x10 mm
+- Identifikace vrstev mědi (kontrola)
+    - Číslování
+    - Čtverečky
+@ulend
+
+---
+
+#### Fáze návrhu 10:
 ## Kontrola ERC/DRC
 
 @ul
-- "Je to jen varování"
+- Pozor na "Je to jen varování"
 - Šablonové nastavení
 - Vygenerovat všechny polygony
 - Cíl: Nothing to do!
@@ -531,3 +623,7 @@ Note:
 @snap[midpoint]
 ## Diskuze
 @snapend
+
+---
+
+- Pozor na diody ve skleněném pouzdře
