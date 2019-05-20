@@ -23,8 +23,8 @@ Note:
 
 ---
 
-#### @color[orange](Úvod 1:)
-## @color[#87CEFA](Důvod pro checklist)
+#### @color[#87CEFA](Úvod 1:)
+## @color[orange](Důvod pro checklist)
 
 @ul
 - 1. Někdo začíná a potřebuje vodítko
@@ -38,8 +38,8 @@ Note:
 
 ---
 
-#### @color[orange](Úvod 2:)
-## @color[#87CEFA](Svatý grál výroby)
+#### @color[#87CEFA](Úvod 2:)
+## @color[orange](Svatý grál výroby)
 
 @ul
 - Přesnost
@@ -60,8 +60,8 @@ Note:
     - Mění se v čase
 ---
 
-#### @color[orange](Úvod 3:)
-## @color[#87CEFA](Struktura prezentace)
+#### @color[#87CEFA](Úvod 3:)
+## @color[orange](Struktura prezentace)
 
 @ul
 - 1. Skladové hospodářství
@@ -74,14 +74,14 @@ Note:
 ---
 
 @snap[midpoint]
-#### @color[orange](Část 1:)
+#### @color[#87CEFA](Část 1:)
 ## Skladové hospodářství
 @snapend
 
 ---
 
-#### @color[orange](Skladové hospodářství 1:)
-## @color[#87CEFA](Centrální databáze I.)
+#### @color[#87CEFA](Skladové hospodářství 1:)
+## @color[orange](Centrální databáze I.)
 
 @ul
 - Jakákoliv forma databáze, jenž obsahuje informace o vše použitých součástkách
@@ -99,8 +99,8 @@ Note:
 
 ---
 
-#### @color[orange](Skladové hospodářství 2:)
-## @color[#87CEFA](Centrální databáze II.)
+#### @color[#87CEFA](Skladové hospodářství 2:)
+## @color[orange](Centrální databáze II.)
 
 @ul
 - Nástroj v HARDWARIO
@@ -115,8 +115,8 @@ Note:
 
 ---
 
-#### @color[orange](Skladové hospodářství 3:)
-## @color[#87CEFA](Struktura databáze 1/3)
+#### @color[#87CEFA](Skladové hospodářství 3:)
+## @color[orange](Struktura databáze 1/3)
 
 @ul
 - Interní part number
@@ -132,8 +132,8 @@ Note:
 
 ---
 
-#### @color[orange](Skladové hospodářství 4:)
-## @color[#87CEFA](Struktura databáze 2/3)
+#### @color[#87CEFA](Skladové hospodářství 4:)
+## @color[orange](Struktura databáze 2/3)
 
 @ul
 - Stručný popis, např. podtitulek z datasheetu
@@ -151,8 +151,8 @@ Note:
 
 ---
 
-#### @color[orange](Skladové hospodářství 5:)
-## @color[#87CEFA](Struktura databáze 3/3)
+#### @color[#87CEFA](Skladové hospodářství 5:)
+## @color[orange](Struktura databáze 3/3)
 
 @ul
 - Výrobce (může být více)
@@ -176,8 +176,8 @@ Note:
 
 ---
 
-#### @color[orange](Skladové hospodářství 6:)
-## @color[#87CEFA](Optimalizace součástek)
+#### @color[#87CEFA](Skladové hospodářství 6:)
+## @color[orange](Optimalizace součástek)
 
 @ul
 - Parametry, dostupnost, cena
@@ -195,14 +195,14 @@ Note:
 ---
 
 @snap[midpoint]
-#### @color[orange](Část 2:)
-## @color[#87CEFA](Před návrhem)
+#### @color[#87CEFA](Část 2:)
+## @color[orange](Před návrhem)
 @snapend
 
 ---
 
-##### @color[orange](Před návrhem 1:)
-## @color[#87CEFA](Projektová šablona)
+##### @color[#87CEFA](Před návrhem 1:)
+## @color[orange](Projektová šablona)
 
 @ul
 - Specifikace produktu
@@ -218,8 +218,8 @@ Note:
 
 ---
 
-##### @color[orange](Před návrhem 2:)
-## @color[#87CEFA](Výrobní etapy I.)
+##### @color[#87CEFA](Před návrhem 2:)
+## @color[orange](Výrobní etapy I.)
 
 @ul
 - Příklad rozdělení:
@@ -235,8 +235,8 @@ Note:
 
 ---
 
-##### @color[orange](Před návrhem 3:)
-## @color[#87CEFA](Výrobní etapy II.)
+##### @color[#87CEFA](Před návrhem 3:)
+## @color[orange](Výrobní etapy II.)
 
 @ul
 - Od termínu se stanoví harmonogram
@@ -250,8 +250,8 @@ Note:
 
 ---
 
-#### @color[orange](Před návrhem 4:)
-## @color[#87CEFA](Technologické možnosti)
+#### @color[#87CEFA](Před návrhem 4:)
+## @color[orange](Technologické možnosti)
 
 @ul
 - Výrobce desek
@@ -271,14 +271,14 @@ Note:
 ---
 
 @snap[midpoint]
-#### @color[orange](Část 3:)
-## @color[#87CEFA](Fáze návrhu)
+#### @color[#87CEFA](Část 3:)
+## @color[orange](Fáze návrhu)
 @snapend
 
 ---
 
-##### @color[orange](Fáze návrhu 1:)
-## @color[#87CEFA](Technická rozvaha)
+##### @color[#87CEFA](Fáze návrhu 1:)
+## @color[orange](Technická rozvaha)
 
 @ul
 - Blokový diagram
@@ -291,8 +291,8 @@ Note:
 
 ---
 
-#### @color[orange](Fáze návrhu 2:)
-## @color[#87CEFA](Návrhový cyklus desky)
+#### @color[#87CEFA](Fáze návrhu 2:)
+## @color[orange](Návrhový cyklus desky)
 
 @ul
 - 1. Tvorba knihoven
@@ -306,8 +306,8 @@ Note:
 
 ---
 
-#### @color[orange](Fáze návrhu 3:)
-## @color[#87CEFA](Tvorba knihoven I.)
+#### @color[#87CEFA](Fáze návrhu 3:)
+## @color[orange](Tvorba knihoven I.)
 
 @ul
 - Praktická kategorizace (hio-resistors, hio-capacitors, hio-microcontrollers, ...)
@@ -323,8 +323,8 @@ Note:
 
 ---
 
-#### @color[orange](Fáze návrhu 4:)
-## @color[#87CEFA](Tvorba knihoven II.)
+#### @color[#87CEFA](Fáze návrhu 4:)
+## @color[orange](Tvorba knihoven II.)
 
 @ul
 - Prefixy součástky
@@ -343,8 +343,8 @@ Note:
 
 ---
 
-#### @color[orange](Fáze návrhu 5:)
-## @color[#87CEFA](Tvorba schématu I.)
+#### @color[#87CEFA](Fáze návrhu 5:)
+## @color[orange](Tvorba schématu I.)
 
 @ul
 - Pojmenované všechny signály
@@ -358,8 +358,8 @@ Note:
 
 ---
 
-#### @color[orange](Fáze návrhu 6:)
-## @color[#87CEFA](Tvorba schématu II.)
+#### @color[#87CEFA](Fáze návrhu 6:)
+## @color[orange](Tvorba schématu II.)
 
 @ul
 
@@ -368,8 +368,8 @@ Note:
 
 ---
 
-#### @color[orange](Fáze návrhu 7:)
-## @color[#87CEFA](Návrh spojů I.)
+#### @color[#87CEFA](Fáze návrhu 7:)
+## @color[orange](Návrh spojů I.)
 
 @ul
 - Nulová souřadnice desky v levém dolním rohu
@@ -382,8 +382,8 @@ Note:
 
 ---
 
-#### @color[orange](Fáze návrhu 8:)
-## @color[#87CEFA](Návrh spojů II.)
+#### @color[#87CEFA](Fáze návrhu 8:)
+## @color[orange](Návrh spojů II.)
 
 @ul
 - Keramické kondenzátory blízko kraji desky
@@ -396,8 +396,8 @@ Note:
 
 ---
 
-#### @color[orange](Fáze návrhu 9:)
-## @color[#87CEFA](Návrh spojů III.)
+#### @color[#87CEFA](Fáze návrhu 9:)
+## @color[orange](Návrh spojů III.)
 
 @ul
 - Razítko (identifikátor + revize)
@@ -418,8 +418,8 @@ Note:
 
 ---
 
-#### @color[orange](Fáze návrhu 10:)
-## @color[#87CEFA](Náležitosti I.)
+#### @color[#87CEFA](Fáze návrhu 10:)
+## @color[orange](Náležitosti I.)
 
 @ul
 - Označení desky
@@ -433,8 +433,8 @@ Note:
 
 ---
 
-#### @color[orange](Fáze návrhu 11:)
-## @color[#87CEFA](Náležitosti II.)
+#### @color[#87CEFA](Fáze návrhu 11:)
+## @color[orange](Náležitosti II.)
 
 @ul
 - Prostor pro trasovatelný kód
@@ -445,8 +445,8 @@ Note:
 
 ---
 
-#### @color[orange](Fáze návrhu 12:)
-## @color[#87CEFA](Náležitosti III.)
+#### @color[#87CEFA](Fáze návrhu 12:)
+## @color[orange](Náležitosti III.)
 
 @ul
 - Značky pro osazovací automat (fiducials)
@@ -460,8 +460,8 @@ Note:
 
 ---
 
-#### @color[orange](Fáze návrhu 13:)
-## @color[#87CEFA](Technologické náležitosti IV.)
+#### @color[#87CEFA](Fáze návrhu 13:)
+## @color[orange](Technologické náležitosti IV.)
 
 @ul
 - Místo pro "bad mark"
@@ -475,8 +475,8 @@ Note:
 
 ---
 
-#### @color[orange](Fáze návrhu 14:)
-## @color[#87CEFA](Kontrola ERC/DRC)
+#### @color[#87CEFA](Fáze návrhu 14:)
+## @color[orange](Kontrola ERC/DRC)
 
 @ul
 - Pozor na "Je to jen varování"
@@ -493,14 +493,14 @@ Note:
 ---
 
 @snap[midpoint]
-#### @color[orange](Část 4:)
-## @color[#87CEFA](Příprava podkladů)
+#### @color[#87CEFA](Část 4:)
+## @color[orange](Příprava podkladů)
 @snapend
 
 ---
 
-#### @color[orange](Příprava podkladů 1:)
-## @color[#87CEFA](Přehled dokumentace)
+#### @color[#87CEFA](Příprava podkladů 1:)
+## @color[orange](Přehled dokumentace)
 
 @ul
 - Soupiska součástek (BOM)
@@ -514,8 +514,8 @@ Note:
 
 ---
 
-#### @color[orange](Příprava podkladů 2:)
-## @color[#87CEFA](Gerber + NC drill data)
+#### @color[#87CEFA](Příprava podkladů 2:)
+## @color[orange](Gerber + NC drill data)
 
 @ul
 - Aktuální vygenerovaný ground plane
@@ -530,8 +530,8 @@ Note:
 
 ---
 
-#### @color[orange](Příprava podkladů 3:)
-## @color[#87CEFA](Panelizace desky I.)
+#### @color[#87CEFA](Příprava podkladů 3:)
+## @color[orange](Panelizace desky I.)
 
 @ul
 - Jeden design na panel
@@ -544,8 +544,8 @@ Note:
 
 ---
 
-#### @color[orange](Příprava podkladů 4:)
-## @color[#87CEFA](Panelizace desky II.)
+#### @color[#87CEFA](Příprava podkladů 4:)
+## @color[orange](Panelizace desky II.)
 
 @ul
 - Technologické okolí
@@ -559,14 +559,14 @@ Note:
 ---
 
 @snap[midpoint]
-#### @color[orange](Část 5:)
-## @color[#87CEFA](Zadání do výroby)
+#### @color[#87CEFA](Část 5:)
+## @color[orange](Zadání do výroby)
 @snapend
 
 ---
 
-#### @color[orange](Zadání do výroby 1:)
-## @color[#87CEFA](Objednání DPS)
+#### @color[#87CEFA](Zadání do výroby 1:)
+## @color[orange](Objednání DPS)
 
 @ul
 - Název desky, počet kusů, termín
@@ -583,8 +583,8 @@ Note:
 
 ---
 
-#### @color[orange](Zadání do výroby 2:)
-## @color[#87CEFA](Objednání výroby)
+#### @color[#87CEFA](Zadání do výroby 2:)
+## @color[orange](Objednání výroby)
 
 @ul
 - Označení zakázky
@@ -605,8 +605,8 @@ Note:
 
 ---
 
-#### @color[orange](Zadání do výroby 3:)
-## @color[#87CEFA](Sledování zakázky)
+#### @color[#87CEFA](Zadání do výroby 3:)
+## @color[orange](Sledování zakázky)
 
 @ul
 - Potvrzení přijetí zakázky
@@ -622,8 +622,8 @@ Note:
 
 ---
 
-#### @color[orange](Zadání do výroby 4:)
-## @color[#87CEFA](Předání zakázky)
+#### @color[#87CEFA](Zadání do výroby 4:)
+## @color[orange](Předání zakázky)
 
 @ul
 - Předávací protokol
