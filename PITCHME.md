@@ -74,7 +74,8 @@ Note:
 ---
 
 @snap[midpoint]
-## (1) Skladové hospodářství
+#### Část 1:
+## Skladové hospodářství
 @snapend
 
 ---
@@ -194,7 +195,8 @@ Note:
 ---
 
 @snap[midpoint]
-## (2) Před návrhem
+#### Část 2:
+## Před návrhem
 @snapend
 
 ---
@@ -269,7 +271,8 @@ Note:
 ---
 
 @snap[midpoint]
-## (3) Fáze návrhu
+#### Část 3:
+## Fáze návrhu
 @snapend
 
 ---
@@ -369,16 +372,12 @@ Note:
 ## Návrh spojů I.
 
 @ul
-- Razítko (identifikátor + revize)
 - Nulová souřadnice desky v levém dolním rohu
 - Identifikátor + revize na desce
-- Minimum solder mask sliver
-- Impedanční přizpůsobení
+- Minimální můstky na masce 100 um
+- Impedanční přizpůsobení a specifikace stacku
+- Čištění nezakončených spojů
 - Netahejte měď až do kraje desky
-- Unterminated traces
-- Keramické kondenzátory blízko kraji desky
-    - Zvážit použití flex term přívodů
-    - Mechanické namáhání nejen při separaci soulepu
 @ulend
 
 ---
@@ -387,17 +386,12 @@ Note:
 ## Návrh spojů II.
 
 @ul
-- Razítko (identifikátor + revize)
-- Nulová souřadnice desky v levém dolním rohu
-- Identifikátor + revize na desce
-- Minimum solder mask sliver
-- Impedanční přizpůsobení
-- Netahejte měď až do kraje desky
-- Unterminated traces
 - Keramické kondenzátory blízko kraji desky
     - Zvážit použití flex term přívodů
     - Mechanické namáhání nejen při separaci soulepu
-- Naváděcí díry pro jehlové pole
+- Pozor na diody ve skleněném pouzdře
+- Jasná specifikace pokoveného a nepokoveného frézování
+- Minimální vzdálenost mezi test pointy 2 mm
 @ulend
 
 ---
@@ -446,6 +440,7 @@ Note:
 - Prostor pro trasovatelný kód
     - Speciální vrstva - součást Gerber dat výrobci
     - Laserové gravírování Data Matrix kódu
+- Naváděcí díry pro jehlové pole
 @ulend
 
 ---
@@ -489,6 +484,7 @@ Note:
 - Vygenerovat všechny polygony
 - Cíl: Nothing to do!
 - Statistiky (šířky spojů, prokovy, jména spojů)
+- Nezapomenout kontrolovat masku a pastu (pozor na variantní osazení, nanesená pasta může vadit)
 @ulend
 
 Note:
@@ -497,7 +493,8 @@ Note:
 ---
 
 @snap[midpoint]
-## (4) Příprava podkladů
+#### Část 4:
+## Příprava podkladů
 @snapend
 
 ---
@@ -534,7 +531,7 @@ Note:
 ---
 
 #### Příprava podkladů 3:
-## Panelizace desky
+## Panelizace desky I.
 
 @ul
 - Jeden design na panel
@@ -543,17 +540,27 @@ Note:
     - V-drážky (V Grooving)
     - Frézování (Milling)
     - Můstky (Tab breakout)
+@ulend
+
+---
+
+#### Příprava podkladů 4:
+## Panelizace desky II.
+
+@ul
 - Technologické okolí
     - "Tooling strip"
     - Po krajích zhruba 10 mm
     - Montážní díry
     - Pomocné využití - testování řízené impedance
+    - Bad marky
 @ulend
 
 ---
 
 @snap[midpoint]
-## (5) Zadání do výroby
+#### Část 5:
+## Zadání do výroby
 @snapend
 
 ---
