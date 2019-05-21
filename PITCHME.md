@@ -478,7 +478,7 @@ Note:
     - Někteří výrobci mají problém se zápornými souřadnicemi
 - Naváděcí díry pro jehlové pole (min. průměr trnu 3 mm, díra 3.2 mm)
 
-+++?image=assets/img/fiducial.png&position=center&size=50%
++++?image=assets/img/fiducial.png&position=center&size=50%&top=300px
 
 #### @color[#87cefa](Fáze návrhu 12:)
 ## @color[orange](Ukázka fiducial)
