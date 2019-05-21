@@ -19,6 +19,7 @@ Note:
 
 - Uvedené pohledy jsou čistě subjektivní
 - Každá firma/konstruktér si tvoří vlastní checklisty
+- Ukazuje to cestu, jak to děláme my
 - Nečekejte jednu dlouhou direktivní tabulku
 
 ---
@@ -34,6 +35,8 @@ Note:
 @ulend
 
 Note:
+- Většina zkušených
+- Máme mezi sebou i začínající
 - Od určitého objemu se chyby stávají
 
 ---
@@ -51,24 +54,27 @@ Note:
 @ulend
 
 Note:
-- Trasovatelnost:
-    - Analýza poruch
-    - Servis a reklamace
-- Kvalita:
-    - Vnímání designér x výrobce
+- Přesnost:
+    - Jasně specifikované podklady, abychom vyloučili domněnky
 - Dostupnost:
     - Mění se v čase
+- Trasovatelnost:
+    - Sourcing
+    - Analýza poruch
+    - Servis a reklamace
+- Celková kvalita:
+    - Vnímání designér x výrobce
 ---
 
 #### @color[#87cefa](Úvod 3:)
 ## @color[orange](Struktura prezentace)
 
 @ul
-- 1. Skladové hospodářství
-- 2. Před návrhem
-- 3. Fáze návrhu
-- 4. Příprava podkladů
-- 5. Zadání do výroby
+- Část 1: Skladové hospodářství
+- Část 2: Před návrhem
+- Část 3. Fáze návrhu
+- Část 4. Příprava podkladů
+- Část 5. Zadání do výroby
 @ulend
 
 ---
@@ -570,8 +576,7 @@ Note:
     - Objednání desek
     - Zajištění planžety
     - Osazení desek
-    - Testování
-    - Kompletace
+    - Testování, kompletace
 - Dokumentační balíček
 @ulend
 
