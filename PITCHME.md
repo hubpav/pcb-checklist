@@ -434,9 +434,6 @@ Note:
 
 +++?image=assets/img/fiducial.png&position=center&size=80%
 
-#### @color[#87cefa](Fáze návrhu 12:)
-## @color[orange](Ukázka fiducial)
-
 ---
 
 #### @color[#87cefa](Fáze návrhu 13:)
