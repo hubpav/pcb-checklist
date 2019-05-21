@@ -431,7 +431,7 @@ Note:
     - Někteří výrobci mají problém se zápornými souřadnicemi
 - Naváděcí díry pro jehlové pole (min. průměr trnu 3 mm, díra 3.2 mm)
 
-+++?image=assets/img/fiducial.png&position=center&size=50%
++++?image=assets/img/fiducial.png&position=center
 
 #### @color[#87cefa](Fáze návrhu 12:)
 ## @color[orange](Ukázka fiducial)
@@ -449,7 +449,7 @@ Note:
     - Číslování
     - Čtverečky
 
-+++?image=assets/img/layers.png&position=center&size=50%
++++?image=assets/img/layers.png&position=center
 
 ---
 
@@ -486,9 +486,9 @@ Note:
 - Osazovací plánky (poziční/hodnotové)
 - Popis oživení a testování
 
-+++?image=assets/img/names.png&position=center&size=50%
++++?image=assets/img/names.png&position=center
 
-+++?image=assets/img/values.png&position=center&size=50%
++++?image=assets/img/values.png&position=center
 
 ---
 
@@ -516,8 +516,8 @@ Note:
     - Frézování (Milling)
     - Můstky (Tab breakout)
 
-+++?image=assets/img/pcb-panel-wrong.jpg&position=center&size=50%
-+++?image=assets/img/pcb-panel-drilling.jpg&position=center&size=50%
++++?image=assets/img/pcb-panel-wrong.jpg&position=center
++++?image=assets/img/pcb-panel-drilling.jpg&position=center
 
 ---
 
