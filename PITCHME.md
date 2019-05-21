@@ -301,13 +301,13 @@ Note:
 #### @color[#87cefa](Fáze návrhu 2:)
 ## @color[orange](Návrhový cyklus desky)
 
-- 1. Tvorba knihoven
-- 2. Návrh zapojení
-- 3. Rozmístění součástek
-- 4. Návrh spojů
-- 5. Kontrola ERC/DRC
-- 6. Generování podkladů
-- 7. Odeslání do výroby
+- #1: Tvorba knihoven
+- #2: Návrh zapojení
+- #3: Rozmístění součástek
+- #4: Návrh spojů
+- #5: Kontrola ERC/DRC
+- #6: Generování podkladů
+- #7: Odeslání do výroby
 
 Note:
 - DFM/DFA/DFT analýza v každém kroku návrhu
