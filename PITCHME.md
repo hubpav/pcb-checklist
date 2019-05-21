@@ -28,11 +28,11 @@ Note:
 #### @color[#87cefa](Úvod 1:)
 ## @color[orange](Důvod pro checklist)
 
-- 1. Někdo začíná a potřebuje vodítko
-- 2. Potřebujeme posílit stávající procesy
-- 3. Návod pro nové kolegy
-- 4. Nechceme opakovat stejné chyby
-- 5. Finanční úspora
+- #1: Někdo začíná a potřebuje vodítko
+- #2: Potřebujeme posílit stávající procesy
+- #3: Návod pro nové kolegy
+- #4: Nechceme opakovat stejné chyby
+- #5: Finanční úspora
 
 Note:
 - Většina zkušených
