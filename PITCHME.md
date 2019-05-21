@@ -28,13 +28,11 @@ Note:
 #### @color[#87cefa](Úvod 1:)
 ## @color[orange](Důvod pro checklist)
 
-
 - 1. Někdo začíná a potřebuje vodítko
 - 2. Potřebujeme posílit stávající procesy
 - 3. Návod pro nové kolegy
 - 4. Nechceme opakovat stejné chyby
 - 5. Finanční úspora
-
 
 Note:
 - Většina zkušených
@@ -46,14 +44,12 @@ Note:
 #### @color[#87cefa](Úvod 2:)
 ## @color[orange](Svatý grál výroby)
 
-
 - Přesnost
 - Opakovatelnost
 - Dostupnost
 - Trasovatelnost
 - Přenositelnost
 - Celková kvalita
-
 
 Note:
 - Přesnost:
@@ -71,13 +67,11 @@ Note:
 #### @color[#87cefa](Úvod 3:)
 ## @color[orange](Struktura prezentace)
 
-
 - Část 1: Skladové hospodářství
 - Část 2: Před návrhem
 - Část 3: Fáze návrhu
 - Část 4: Příprava podkladů
 - Část 5: Zadání do výroby
-
 
 ---
 
@@ -91,7 +85,6 @@ Note:
 #### @color[#87cefa](Skladové hospodářství 1:)
 ## @color[orange](Centrální databáze I.)
 
-
 - Jakákoliv forma databáze obsahující informace o všech kdy použitých součástkách
 - Od komplexního ERP systému až po Google Sheets
 - Nutnost na víc než jeden projekt
@@ -99,7 +92,6 @@ Note:
     - Pro informace do knihoven (design fáze)
     - Pro generování výstupů (úspora času)
 - Vazba na nákup, výrobu, obchod
-
 
 Note:
 - Vyberte si takové nástroje, které budete schopni systematicky udržovat
@@ -109,7 +101,6 @@ Note:
 #### @color[#87cefa](Skladové hospodářství 2:)
 ## @color[orange](Centrální databáze II.)
 
-
 - Nástroj v HARDWARIO
 - GitLab (repozitář hardware a knihoven)
 - GitLab CI (continuous integration)
@@ -118,7 +109,6 @@ Note:
     - Vstup: Google Sheet, knihovny, projekty
     - Výstup: Knihovny, projektový BOM
 - Pomáhá při plánování - tabulka požadovaných množství, výstup: souhrnný BOM
-
 
 Note:
 - GitLab
@@ -134,7 +124,6 @@ Note:
 #### @color[#87cefa](Skladové hospodářství 3:)
 ## @color[orange](Struktura databáze I.)
 
-
 - Interní part number
     - Primární klíč každé součástky
     - Uvedení kategorie (IC,R,C,BAT,...)
@@ -145,14 +134,12 @@ Note:
     - NRD = aktivní, ale ne pro nové designy
     - EOL = konec životnosti
 
-
 Note:
 
 ---
 
 #### @color[#87cefa](Skladové hospodářství 4:)
 ## @color[orange](Struktura databáze II.)
-
 
 - Stručný popis, např. podtitulek z datasheetu
 - Přílohy (nabídky, výkresy, datasheety, atd.)
@@ -164,7 +151,6 @@ Note:
 - Použito v projektech X,Y,Z
 - Osazovací popisek (např. 100 nF) - pro ruční osazení
 
-
 Note:
 - Stručný popis injektujeme do knihovny z centrální databáze
 - Montážní technologie - důležité pro part list
@@ -174,7 +160,6 @@ Note:
 #### @color[#87cefa](Skladové hospodářství 5:)
 ## @color[orange](Struktura databáze III.)
 
-
 - Výrobce (může být více)
     - Jméno + kontakt
     - Part number výrobce
@@ -183,7 +168,6 @@ Note:
     - Part number dodavatele
     - MOQ, MPU, L/T
     - Ceny (EUR/USD/CZK)
-
 
 Note:
 - Ceny v čase
@@ -196,7 +180,6 @@ Note:
 #### @color[#87cefa](Skladové hospodářství 6:)
 ## @color[orange](Optimalizace součástek)
 
-
 - Parametry, dostupnost, cena
 - Hledání průniků
     - Existující produkty
@@ -205,7 +188,6 @@ Note:
 - TCO (Total Cost of Ownership)
 - Ve výrobní fázi (ECO)
     - Popis změny, rozsah, produkty, lidé
-
 
 Note:
 - Projektové bundle ceny
@@ -222,7 +204,6 @@ Note:
 ##### @color[#87cefa](Před návrhem 1:)
 ## @color[orange](Projektová šablona)
 
-
 - Specifikace produktu
 - Vlastník produktu (PO)
 - Cílový zákazník
@@ -230,7 +211,6 @@ Note:
 - Odhad životního cyklu:
     - Kolik toho budeme vyrábět?
     - Jak dlouho budeme vyrábět?
-
 
 Note:
 - Product owner
@@ -242,7 +222,6 @@ Note:
 ##### @color[#87cefa](Před návrhem 2:)
 ## @color[orange](Výrobní etapy I.)
 
-
 - Příklad rozdělení:
     - Funkční vzorek < 10 ks
     - Prototypová série < 100 ks
@@ -251,14 +230,12 @@ Note:
 - Rozdělení podle ceny a složitosti
 - Každá etapa má stanovený termín plnění
 
-
 Note:
 
 ---
 
 ##### @color[#87cefa](Před návrhem 3:)
 ## @color[orange](Výrobní etapy II.)
-
 
 - Od termínu se stanoví harmonogram
 - Příklad plánování pro ověřovací sérii 500 ks
@@ -270,7 +247,6 @@ Note:
 - Interní oponentura před/po každé etapě
 
 
-
 Note:
 - Nástroj bez PO vás nespasí
 
@@ -278,7 +254,6 @@ Note:
 
 #### @color[#87cefa](Před návrhem 4:)
 ## @color[orange](Technologické možnosti)
-
 
 - Výrobce desek
     - Prototypová výroba - např. Gatema, Pragoboard
@@ -288,7 +263,6 @@ Note:
 - Požadavky na výrobní tester
 - Jak se řeší kompletace a balení
 - Jak se řeší skladování
-
 
 Note:
 - Výrobce desek - kompatibilita materiálů
@@ -308,7 +282,6 @@ Note:
 ##### @color[#87cefa](Fáze návrhu 1:)
 ## @color[orange](Technická rozvaha)
 
-
 - Systémový diagram
 - Blokový diagram
 - Technická specifikace
@@ -316,7 +289,6 @@ Note:
     - Jednání s výrobci/distributory
 - Výrobní technologie
 - Oponentura technického konceptu
-
 
 Note:
 - Velikost pouzder
@@ -329,7 +301,6 @@ Note:
 #### @color[#87cefa](Fáze návrhu 2:)
 ## @color[orange](Návrhový cyklus desky)
 
-
 - 1. Tvorba knihoven
 - 2. Návrh zapojení
 - 3. Rozmístění součástek
@@ -337,7 +308,6 @@ Note:
 - 5. Kontrola ERC/DRC
 - 6. Generování podkladů
 - 7. Odeslání do výroby
-
 
 Note:
 - DFM/DFA/DFT analýza v každém kroku návrhu
@@ -347,7 +317,6 @@ Note:
 #### @color[#87cefa](Fáze návrhu 3:)
 ## @color[orange](Tvorba knihoven I.)
 
-
 - Praktická kategorizace
 - Ukázka [kategorizace](https://gist.github.com/hubpav/3115b4a44a9600dc3f6eef0879bd4e56)
 - Přiřazení interního skladovacího čísla
@@ -356,7 +325,6 @@ Note:
     - Bulk, Cut Tape, DigiReel
     - Tube, Tape & Reel, Tray
 
-
 Note:
 - Pohlídat, že např. konektory mají osazovací čepičky
 
@@ -364,7 +332,6 @@ Note:
 
 #### @color[#87cefa](Fáze návrhu 4:)
 ## @color[orange](Tvorba knihoven II.)
-
 
 - Prefixy součástky
     - Reference Designator / Name
@@ -376,7 +343,6 @@ Note:
 - Konzultace s technology u výrobce
 
 
-
 Note:
 - Pohlídat, že např. konektory mají osazovací čepičky
 - Suffixy pro IPC
@@ -385,7 +351,6 @@ Note:
 
 #### @color[#87cefa](Fáze návrhu 5:)
 ## @color[orange](Tvorba schématu)
-
 
 - Sběrnice, hier. schémata, wire harness
 - Pojmenované všechny signály
@@ -396,12 +361,10 @@ Note:
     - Napětí na referenci
 - Mechanické komponenty součástí schématu
 
-
 ---
 
 #### @color[#87cefa](Fáze návrhu 7:)
 ## @color[orange](Návrh spojů I.)
-
 
 - Minimální můstky na masce 0.1 mm
 - Impedanční přizpůsobení a specifikace stacku
@@ -409,12 +372,10 @@ Note:
 - Spojování prokovů
 - Jasná specifikace pokoveného a nepokoveného frézování
 
-
 ---
 
 #### @color[#87cefa](Fáze návrhu 8:)
 ## @color[orange](Návrh spojů II.)
-
 
 - Keramické kondenzátory blízko kraji desky
     - Zvážit použití flex term přívodů
@@ -422,12 +383,10 @@ Note:
 - Pozor na diody ve skleněném pouzdře
 - Minimální vzdálenost mezi test pointy 2 mm
 
-
 ---
 
 #### @color[#87cefa](Fáze návrhu 9:)
 ## @color[orange](Návrh spojů III.)
-
 
 - Impedanční přizpůsobení
 - Měď od kraje desky min. 0.3 mm
@@ -436,12 +395,10 @@ Note:
     - Mechanické namáhání nejen při separaci soulepu
     - Zvážit použití flex term přívodů (např. AVX od 1 uF)
 
-
 ---
 
 #### @color[#87cefa](Fáze návrhu 10:)
 ## @color[orange](Náležitosti I.)
-
 
 - Označení desky
     - Názvem (SOIL SENSOR), příp. kódem (HX153)
@@ -451,24 +408,20 @@ Note:
     - V případě verzovacího systému vytvořit tag
     - Jméno tagu např.: hio-soil-sensor-r1.3
 
-
 ---
 
 #### @color[#87cefa](Fáze návrhu 11:)
 ## @color[orange](Náležitosti II.)
-
 
 - Prostor pro trasovatelný kód
     - Číslo, čárový kód, QR / data matrix
     - Speciální vrstva - součást Gerber dat výrobci
     - Laserové gravírování grafického kódu
 
-
 ---
 
 #### @color[#87cefa](Fáze návrhu 12:)
 ## @color[orange](Náležitosti III.)
-
 
 - Značky pro osazovací automat (fiducials)
     - Kulatý pad o průměru 1 mm
@@ -506,14 +459,12 @@ Note:
 #### @color[#87cefa](Fáze návrhu 14:)
 ## @color[orange](Kontrola ERC/DRC)
 
-
 - Pozor na "Je to jen varování"
 - Šablonové nastavení
 - Vygenerovat všechny polygony
 - Kontrola vzdušných spojů
 - Statistiky (šířky spojů, prokovy, jména spojů)
 - Nezapomenout kontrolovat masku a pastu (pozor na variantní osazení, nanesená pasta může vadit)
-
 
 Note:
 - Dodatečný prokov na spojení zemí a jeho odvrtávání
@@ -529,7 +480,6 @@ Note:
 
 #### @color[#87cefa](Příprava podkladů 1:)
 ## @color[orange](Přehled dokumentace)
-
 
 - Soupiska součástek (BOM)
 - Gerber + NC drill data
@@ -548,7 +498,6 @@ Note:
 #### @color[#87cefa](Příprava podkladů 2:)
 ## @color[orange](Gerber + NC drill data)
 
-
 - Aktuální vygenerovaný ground plane
 - ERC/DRC
 - Obrys desky
@@ -558,12 +507,10 @@ Note:
 - Potisk T/B
 - Pájecí pasta T/B - v případě planžety
 
-
 ---
 
 #### @color[#87cefa](Příprava podkladů 3:)
 ## @color[orange](Panelizace desky I.)
-
 
 - Jeden design na panel
 - Optimalizace obrysu
@@ -579,7 +526,6 @@ Note:
 
 #### @color[#87cefa](Příprava podkladů 4:)
 ## @color[orange](Panelizace desky II.)
-
 
 - Technologické okolí
     - "Tooling strip"
@@ -603,7 +549,6 @@ Note:
 #### @color[#87cefa](Zadání do výroby 1:)
 ## @color[orange](Objednání DPS)
 
-
 - Název desky, počet kusů, termín
 - Technologie
     - Počet vrstev + layer stack
@@ -612,7 +557,6 @@ Note:
     - Testování
 - Výrobní data
 
-
 Note:
 - Zbytečně nešetřete počet vrstev
 - Vyrobili jsme 6vrstvou desku se 4 vrstvami.
@@ -620,20 +564,15 @@ Note:
 ---
 
 #### @color[#87cefa](Zadání do výroby 2:)
-## @color[orange](Objednání výroby)
-
+## @color[orange](Objednání výroby u EMS)
 
 - Označení zakázky
 - Požadované množství
 - Požadovaný termín
-- Rozsah angažovanosti
-    - Nákup materiálu
-    - Objednání desek
-    - Zajištění planžety
-    - Osazení desek
-    - Testování, kompletace
 - Dokumentační balíček
-
+- Operace po osazení
+    - Mytí
+    - Lakování
 
 Note:
 - Nejednou jsme jeli do Pragoboardu pro planžetu.
@@ -641,8 +580,21 @@ Note:
 ---
 
 #### @color[#87cefa](Zadání do výroby 3:)
-## @color[orange](Sledování zakázky)
+## @color[orange](Objednání výroby u EMS)
 
+- Rozsah realizace
+    - Nákup materiálu
+    - Objednání desek
+    - Zajištění planžety
+    - Osazení desek
+    - Testování, kompletace
+
+Note:
+
+---
+
+#### @color[#87cefa](Zadání do výroby 4:)
+## @color[orange](Sledování zakázky)
 
 - Potvrzení přijetí zakázky
 - Potvrzení správnosti podkladových materiálů
@@ -650,7 +602,6 @@ Note:
 - Pravidelná komunikace a kontrola
     - Alokace na lince
     - Plnění subdodávek
-
 
 Note:
 - Stalo se nám, že vše bylo vykomunikováno, ale neuskutečnilo se "GO".
@@ -660,7 +611,6 @@ Note:
 #### @color[#87cefa](Zadání do výroby 4:)
 ## @color[orange](Předání zakázky)
 
-
 - Předávací protokol
 - Servisní operace
     - Testery
@@ -668,7 +618,6 @@ Note:
     - Výrobci
     - Objednateli
     - Konstruktérovi
-
 
 ---
 
