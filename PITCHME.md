@@ -451,9 +451,6 @@ Note:
 
 +++?image=assets/img/layers.png&position=center&size=50%
 
-#### @color[#87cefa](Fáze návrhu 13:)
-## @color[orange](Ukázka identifikace vrstev)
-
 ---
 
 #### @color[#87cefa](Fáze návrhu 14:)
