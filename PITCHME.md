@@ -533,7 +533,7 @@ Note:
 
 - Soupiska součástek (BOM)
 - Gerber + NC drill data
-- Specifikace vrstev
+- Specifikace vrstev (layer stack)
 - Výkres panelizace
 - Seznam pozic (pick and place)
 - Osazovací plánky (poziční/hodnotové)
@@ -541,13 +541,7 @@ Note:
 
 +++?image=assets/img/names.png&position=center&size=50%
 
-#### @color[#87cefa](Příprava podkladů 1:)
-## @color[orange](Ukázka pozičního plánku)
-
 +++?image=assets/img/values.png&position=center&size=50%
-
-#### @color[#87cefa](Příprava podkladů 1:)
-## @color[orange](Ukázka hodnotového plánku)
 
 ---
 
