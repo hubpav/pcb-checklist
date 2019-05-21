@@ -440,7 +440,7 @@ Note:
 
 @ul
 - Místo pro "bad mark"
-    - Možnost ručně označit defektní DPS v soulepu
+    - Možnost ručně označit defektní DPS v technologickém okolí panelu
     - Uplatnění již od výrobce DPS
     - Odmaskovaný čtverec v mědi 10x10 mm
 - Identifikace vrstev mědi (kontrola)
@@ -457,7 +457,7 @@ Note:
 - Pozor na "Je to jen varování"
 - Šablonové nastavení
 - Vygenerovat všechny polygony
-- Cíl: Nothing to do!
+- Kontrola vzdušných spojů
 - Statistiky (šířky spojů, prokovy, jména spojů)
 - Nezapomenout kontrolovat masku a pastu (pozor na variantní osazení, nanesená pasta může vadit)
 @ulend
