@@ -72,9 +72,9 @@ Note:
 @ul
 - Část 1: Skladové hospodářství
 - Část 2: Před návrhem
-- Část 3. Fáze návrhu
-- Část 4. Příprava podkladů
-- Část 5. Zadání do výroby
+- Část 3: Fáze návrhu
+- Část 4: Příprava podkladů
+- Část 5: Zadání do výroby
 @ulend
 
 ---
