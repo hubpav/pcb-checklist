@@ -338,9 +338,10 @@ Note:
 ---
 
 #### @color[#87cefa](Fáze návrhu 5:)
-## @color[orange](Tvorba schématu I.)
+## @color[orange](Tvorba schématu)
 
 @ul
+- Sběrnice, hier. schémata, wire harness
 - Pojmenované všechny signály
 - Tip: I2C adresy do schématu
     - Nástroj na extrahování I2C adres
@@ -352,26 +353,15 @@ Note:
 
 ---
 
-#### @color[#87cefa](Fáze návrhu 6:)
-## @color[orange](Tvorba schématu II.)
-
-@ul
-
-@ulend
-
-
----
-
 #### @color[#87cefa](Fáze návrhu 7:)
 ## @color[orange](Návrh spojů I.)
 
 @ul
-- Nulová souřadnice desky v levém dolním rohu
-- Identifikátor + revize na desce
 - Minimální můstky na masce 100 um
 - Impedanční přizpůsobení a specifikace stacku
 - Čištění nezakončených spojů
-- Netahejte měď až do kraje desky
+- Spojování prokovů
+- Jasná specifikace pokoveného a nepokoveného frézování
 @ulend
 
 ---
@@ -384,7 +374,6 @@ Note:
     - Zvážit použití flex term přívodů
     - Mechanické namáhání nejen při separaci soulepu
 - Pozor na diody ve skleněném pouzdře
-- Jasná specifikace pokoveného a nepokoveného frézování
 - Minimální vzdálenost mezi test pointy 2 mm
 @ulend
 
@@ -394,21 +383,13 @@ Note:
 ## @color[orange](Návrh spojů III.)
 
 @ul
-- Razítko (identifikátor + revize)
-- Nulová souřadnice desky v levém dolním rohu
-- Identifikátor + revize na desce
-- Minimum solder mask sliver
 - Impedanční přizpůsobení
 - Měď od kraje desky min. 0.3 mm
 - Součástky od hrany desky min. 1 mm
     - Pozor na keramické kondenzátory min. 3 mm
     - Mechanické namáhání nejen při separaci soulepu
     - Zvážit použití flex term přívodů (např. AVX od 1 uF)
-- Unterminated traces
 @ulend
-
-- Keramické kondenzátory blízko kraji desky
-- Naváděcí díry pro jehlové pole
 
 ---
 
@@ -432,9 +413,9 @@ Note:
 
 @ul
 - Prostor pro trasovatelný kód
+    - Číslo, čárový kód, QR / data matrix
     - Speciální vrstva - součást Gerber dat výrobci
-    - Laserové gravírování Data Matrix kódu
-- Naváděcí díry pro jehlové pole
+    - Laserové gravírování grafického kódu
 @ulend
 
 ---
