@@ -21,6 +21,7 @@ Note:
 - Každá firma/konstruktér si tvoří vlastní checklisty
 - Ukazuje to cestu, jak to děláme my
 - Nečekejte jednu dlouhou direktivní tabulku
+- Textová prezentace
 
 ---
 
@@ -32,6 +33,7 @@ Note:
 - 2. Potřebujeme posílit stávající procesy
 - 3. Návod pro nové kolegy
 - 4. Nechceme opakovat stejné chyby
+- 5. Finanční úspora
 @ulend
 
 Note:
@@ -55,7 +57,7 @@ Note:
 
 Note:
 - Přesnost:
-    - Jasně specifikované podklady, abychom vyloučili domněnky
+    - Jasně specifikované podklady, abychom vyloučili prostor domněnky
 - Dostupnost:
     - Mění se v čase
 - Trasovatelnost:
@@ -100,6 +102,7 @@ Note:
 @ulend
 
 Note:
+- Vyberte si takové nástroje, které budete schopni systematicky udržovat
 
 ---
 
@@ -112,10 +115,19 @@ Note:
 - GitLab CI (continuous integration)
 - Python skript
     - Spouštění na commit nebo ručně (lokálně)
-    - Vstup: Databáze, knihovny, projekty
+    - Vstup: Google Sheet, knihovny, projekty
     - Výstup: Knihovny, projektový BOM
 - Pomáhá při plánování - tabulka požadovaných množství, výstup: souhrnný BOM
 @ulend
+
+Note:
+- GitLab
+    - Management systém nad Git
+    - Self-hosted nebo cloudá verze
+    - Kdo zná Git?
+- EAGLE + XML soubory
+- Suplujeme chybějící funkce sofistikovanějšího systému
+- Altium Vault řeší out-of-the-box
 
 ---
 
@@ -134,6 +146,8 @@ Note:
     - EOL = konec životnosti
 @ulend
 
+Note:
+
 ---
 
 #### @color[#87cefa](Skladové hospodářství 4:)
@@ -147,11 +161,12 @@ Note:
 - Aktuální stav skladu
     - Zásoba a umístění
     - Datum naskladění (nutné pro sledování expirace)
-- Použito v projektech
+- Použito v projektech X,Y,Z
 - Osazovací popisek (např. 100 nF) - pro ruční osazení
 @ulend
 
 Note:
+- Stručný popis injektujeme do knihovny z centrální databáze
 - Montážní technologie - důležité pro part list
 
 ---
@@ -192,6 +207,9 @@ Note:
     - Popis změny, rozsah, produkty, lidé
 @ulend
 
+Note:
+- Projektové bundle ceny
+
 ---
 
 @snap[midpoint]
@@ -215,7 +233,10 @@ Note:
 @ulend
 
 Note:
-
+- Product owner
+- Agile development
+- Kontext aplikace
+- EMC/EMI/ESD/EN/ATEX
 ---
 
 ##### @color[#87cefa](Před návrhem 2:)
@@ -245,8 +266,13 @@ Note:
     - 3 týdny výroba desky
     - 2 týdny osazení
     - 2 týdny oživení
+- Nástroje Redmine, Gantt
 - Interní oponentura před/po každé etapě
 @ulend
+
+
+Note:
+- Nástroj bez PO vás nespasí
 
 ---
 
@@ -266,7 +292,9 @@ Note:
 
 Note:
 - Výrobce desek - kompatibilita materiálů
-- Rentgen
+- Technologické zázemí
+    - Rentgen - LGA/BGA must-have, hlavně pro rozjezd výroby
+- IPC třídy hustoty
 
 ---
 
@@ -281,13 +309,20 @@ Note:
 ## @color[orange](Technická rozvaha)
 
 @ul
+- Systémový diagram
 - Blokový diagram
+- Technická specifikace
 - Výběr součástek
     - Jednání s výrobci/distributory
-- Výběr nástrojů
-- Technická specifikace
+- Výrobní technologie
 - Oponentura technického konceptu
 @ulend
+
+Note:
+- Velikost pouzder
+- Jednostranná/oboustranná montáž
+- Pozor na moduly
+- Technologie pájení
 
 ---
 
@@ -304,13 +339,17 @@ Note:
 - 7. Odeslání do výroby
 @ulend
 
+Note:
+- DFM/DFA/DFT analýza v každém kroku návrhu
+
 ---
 
 #### @color[#87cefa](Fáze návrhu 3:)
 ## @color[orange](Tvorba knihoven I.)
 
 @ul
-- Praktická kategorizace (hio-resistors, hio-capacitors, hio-microcontrollers, ...)
+- Praktická kategorizace
+- Ukázka [kategorizace](https://gist.github.com/hubpav/3115b4a44a9600dc3f6eef0879bd4e56)
 - Přiřazení interního skladovacího čísla
 - Konzistentní pravidla a důslednost
 - Správná specifikace balení v označení součástky:
@@ -340,6 +379,7 @@ Note:
 
 Note:
 - Pohlídat, že např. konektory mají osazovací čepičky
+- Suffixy pro IPC
 
 ---
 
