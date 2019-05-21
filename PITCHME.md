@@ -539,6 +539,15 @@ Note:
 - Osazovací plánky (poziční/hodnotové)
 - Popis oživení a testování
 
++++?image=assets/img/names.png&position=center&size=50%
+
+#### @color[#87cefa](Příprava podkladů 1:)
+## @color[orange](Ukázka pozičního plánku)
+
++++?image=assets/img/values.png&position=center&size=50%
+
+#### @color[#87cefa](Příprava podkladů 1:)
+## @color[orange](Ukázka hodnotového plánku)
 
 ---
 
@@ -569,6 +578,8 @@ Note:
     - Frézování (Milling)
     - Můstky (Tab breakout)
 
+Note:
+- TODO obrazek
 
 ---
 
@@ -583,6 +594,8 @@ Note:
     - Pomocné využití - testování řízené impedance
     - Bad marky
 
+Note:
+- TODO obrazek
 
 ---
 
@@ -607,6 +620,7 @@ Note:
 
 
 Note:
+- Zbytečně nešetřete počet vrstev
 - Vyrobili jsme 6vrstvou desku se 4 vrstvami.
 
 ---
