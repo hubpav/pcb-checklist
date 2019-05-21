@@ -165,9 +165,6 @@ Note:
 @ulend
 
 Note:
-- Volná skladová karta
-- Více výrobců
-- Více dodavatelů
 - Ceny v čase
 - Důležitá je přesnost
 - Kompromis mezi cenou a dostupností
