@@ -28,7 +28,7 @@ Note:
 
 @ul
 - 1. Někdo začíná a potřebuje vodítko
-- 2. Potřebujeme zlepšit procesy
+- 2. Potřebujeme posílit stávající procesy
 - 3. Návod pro nové kolegy
 - 4. Nechceme opakovat stejné chyby
 @ulend
@@ -84,18 +84,16 @@ Note:
 ## @color[orange](Centrální databáze I.)
 
 @ul
-- Jakákoliv forma databáze, jenž obsahuje informace o vše použitých součástkách
+- Jakákoliv forma databáze obsahující informace o všech kdy použitých součástkách
 - Od komplexního ERP systému až po Google Sheets
 - Nutnost na víc než jeden projekt
-- Výhodou propojení na ECAD
-    - Pro informace do knihoven
-    - Pro generování výstupů
+- Výhodou propojení na ECAD x ECAD v roli ERP systému
+    - Pro informace do knihoven (design fáze)
+    - Pro generování výstupů (úspora času)
 - Vazba na nákup, výrobu, obchod
 @ulend
 
 Note:
-- TODO Screenshoty
-- Jiné vnímání na IČO, startup, korporace
 
 ---
 
@@ -137,12 +135,13 @@ Note:
 
 @ul
 - Stručný popis, např. podtitulek z datasheetu
-- Přílohy (výkresy, datasheety, atd.)
+- Přílohy (nabídky, výkresy, datasheety, atd.)
 - Označení pouzdra (0402, SOIC-8)
     - Montážní technologie (SMT/THT)
 - Aktuální stav skladu
     - Zásoba a umístění
     - Datum naskladění (nutné pro sledování expirace)
+- Použito v projektech
 - Osazovací popisek (např. 100 nF) - pro ruční osazení
 @ulend
 
@@ -185,12 +184,10 @@ Note:
     - Existující produkty
     - V rámci designu
 - Výrobní technologie
-- Ve výrobní fázi:
-    - Dostupnost
+- TCO (Total Cost of Ownership)
+- Ve výrobní fázi (ECO)
+    - Popis změny, rozsah, produkty, lidé
 @ulend
-
-Note:
-- Průběžný proces
 
 ---
 
@@ -206,7 +203,7 @@ Note:
 
 @ul
 - Specifikace produktu
-- Vlastník produktu
+- Vlastník produktu (PO)
 - Cílový zákazník
 - Požadované certifikace
 - Odhad životního cyklu:
