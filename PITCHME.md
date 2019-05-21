@@ -617,5 +617,3 @@ Note:
 @snapend
 
 ---
-
-- Pozor na diody ve skleněném pouzdře
