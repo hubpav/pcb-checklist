@@ -478,7 +478,7 @@ Note:
     - Někteří výrobci mají problém se zápornými souřadnicemi
 - Naváděcí díry pro jehlové pole (min. průměr trnu 3 mm, díra 3.2 mm)
 
-+++?image=assets/img/fiducial.png&position=center&size=80%
++++?image=assets/img/fiducial.png&position=center&size=50%
 
 #### @color[#87cefa](Fáze návrhu 12:)
 ## @color[orange](Ukázka fiducial)
@@ -488,7 +488,6 @@ Note:
 #### @color[#87cefa](Fáze návrhu 13:)
 ## @color[orange](Náležitosti IV.)
 
-
 - Místo pro "bad mark"
     - Možnost ručně označit defektní DPS v technologickém okolí panelu
     - Uplatnění již od výrobce DPS
@@ -497,6 +496,10 @@ Note:
     - Číslování
     - Čtverečky
 
++++?image=assets/img/layers.png&position=center&size=50%
+
+#### @color[#87cefa](Fáze návrhu 13:)
+## @color[orange](Ukázka identifikace vrstev)
 
 ---
 
