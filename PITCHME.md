@@ -342,9 +342,7 @@ Note:
     - Suffix _W pro SMT montáž - pájení vlnou
 - Konzultace s technology u výrobce
 
-
 Note:
-- Pohlídat, že např. konektory mají osazovací čepičky
 - Suffixy pro IPC
 
 ---
@@ -389,11 +387,13 @@ Note:
 ## @color[orange](Návrh spojů III.)
 
 - Impedanční přizpůsobení
+    - Pozor na power plane pod vedením
 - Měď od kraje desky min. 0.3 mm
 - Součástky od hrany desky min. 1 mm
-    - Pozor na keramické kondenzátory min. 3 mm
     - Mechanické namáhání nejen při separaci soulepu
-    - Zvážit použití flex term přívodů (např. AVX od 1 uF)
+
++++?image=assets/img/buddy1.png&position=center&size=80%
++++?image=assets/img/buddy2.png&position=center&size=80%
 
 ---
 
