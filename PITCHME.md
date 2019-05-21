@@ -516,8 +516,7 @@ Note:
     - Frézování (Milling)
     - Můstky (Tab breakout)
 
-Note:
-- TODO obrazek
++++?image=assets/img/pcb-panel-wrong.png&position=center&size=50%
 
 ---
 
