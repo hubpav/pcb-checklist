@@ -403,7 +403,7 @@ Note:
 ## @color[orange](Návrh spojů I.)
 
 @ul
-- Minimální můstky na masce 100 um
+- Minimální můstky na masce 0.1 mm
 - Impedanční přizpůsobení a specifikace stacku
 - Čištění nezakončených spojů
 - Spojování prokovů
@@ -478,6 +478,13 @@ Note:
     - Někteří výrobci mají problém se zápornými souřadnicemi
 - Naváděcí díry pro jehlové pole (min. průměr trnu 3 mm, díra 3.2 mm)
 @ulend
+
++++
+
+#### @color[#87cefa](Fáze návrhu 12:)
+## @color[orange](Ukázka fiducial)
+
+![](assets/img/fiducial.png)
 
 ---
 
