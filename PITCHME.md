@@ -417,6 +417,7 @@ Note:
     - Číslo, čárový kód, QR / data matrix
     - Speciální vrstva - součást Gerber dat výrobci
     - Laserové gravírování grafického kódu
+    - Prostor 5x5 mm
 
 ---
 
@@ -431,7 +432,7 @@ Note:
     - Někteří výrobci mají problém se zápornými souřadnicemi
 - Naváděcí díry pro jehlové pole (min. průměr trnu 3 mm, díra 3.2 mm)
 
-+++?image=assets/img/fiducial.png&position=center
++++?image=assets/img/fiducial.png&position=center&size=80%
 
 #### @color[#87cefa](Fáze návrhu 12:)
 ## @color[orange](Ukázka fiducial)
@@ -444,12 +445,13 @@ Note:
 - Místo pro "bad mark"
     - Možnost ručně označit defektní DPS v technologickém okolí panelu
     - Uplatnění již od výrobce DPS
-    - Odmaskovaný čtverec v mědi 10x10 mm
+    - Odmaskovaný čtverec v mědi min. 1x1 mm
+    - Lihový fix nebo štítek
 - Identifikace vrstev mědi (kontrola)
     - Číslování
     - Čtverečky
 
-+++?image=assets/img/layers.png&position=center
++++?image=assets/img/layers.png&position=center&size=80%
 
 ---
 
@@ -486,9 +488,9 @@ Note:
 - Osazovací plánky (poziční/hodnotové)
 - Popis oživení a testování
 
-+++?image=assets/img/names.png&position=center
++++?image=assets/img/names.png&position=center&size=80%
 
-+++?image=assets/img/values.png&position=center
++++?image=assets/img/values.png&position=center&size=80%
 
 ---
 
@@ -516,8 +518,8 @@ Note:
     - Frézování (Milling)
     - Můstky (Tab breakout)
 
-+++?image=assets/img/pcb-panel-wrong.jpg&position=center
-+++?image=assets/img/pcb-panel-drilling.jpg&position=center
++++?image=assets/img/pcb-panel-wrong.jpg&position=center&size=80%
++++?image=assets/img/pcb-panel-drilling.jpg&position=center&size=80%
 
 ---
 
