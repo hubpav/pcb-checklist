@@ -28,13 +28,13 @@ Note:
 #### @color[#87cefa](Úvod 1:)
 ## @color[orange](Důvod pro checklist)
 
-@ul
+
 - 1. Někdo začíná a potřebuje vodítko
 - 2. Potřebujeme posílit stávající procesy
 - 3. Návod pro nové kolegy
 - 4. Nechceme opakovat stejné chyby
 - 5. Finanční úspora
-@ulend
+
 
 Note:
 - Většina zkušených
@@ -46,14 +46,14 @@ Note:
 #### @color[#87cefa](Úvod 2:)
 ## @color[orange](Svatý grál výroby)
 
-@ul
+
 - Přesnost
 - Opakovatelnost
 - Dostupnost
 - Trasovatelnost
 - Přenositelnost
 - Celková kvalita
-@ulend
+
 
 Note:
 - Přesnost:
@@ -71,13 +71,13 @@ Note:
 #### @color[#87cefa](Úvod 3:)
 ## @color[orange](Struktura prezentace)
 
-@ul
+
 - Část 1: Skladové hospodářství
 - Část 2: Před návrhem
 - Část 3: Fáze návrhu
 - Část 4: Příprava podkladů
 - Část 5: Zadání do výroby
-@ulend
+
 
 ---
 
@@ -91,7 +91,7 @@ Note:
 #### @color[#87cefa](Skladové hospodářství 1:)
 ## @color[orange](Centrální databáze I.)
 
-@ul
+
 - Jakákoliv forma databáze obsahující informace o všech kdy použitých součástkách
 - Od komplexního ERP systému až po Google Sheets
 - Nutnost na víc než jeden projekt
@@ -99,7 +99,7 @@ Note:
     - Pro informace do knihoven (design fáze)
     - Pro generování výstupů (úspora času)
 - Vazba na nákup, výrobu, obchod
-@ulend
+
 
 Note:
 - Vyberte si takové nástroje, které budete schopni systematicky udržovat
@@ -109,7 +109,7 @@ Note:
 #### @color[#87cefa](Skladové hospodářství 2:)
 ## @color[orange](Centrální databáze II.)
 
-@ul
+
 - Nástroj v HARDWARIO
 - GitLab (repozitář hardware a knihoven)
 - GitLab CI (continuous integration)
@@ -118,7 +118,7 @@ Note:
     - Vstup: Google Sheet, knihovny, projekty
     - Výstup: Knihovny, projektový BOM
 - Pomáhá při plánování - tabulka požadovaných množství, výstup: souhrnný BOM
-@ulend
+
 
 Note:
 - GitLab
@@ -134,7 +134,7 @@ Note:
 #### @color[#87cefa](Skladové hospodářství 3:)
 ## @color[orange](Struktura databáze I.)
 
-@ul
+
 - Interní part number
     - Primární klíč každé součástky
     - Uvedení kategorie (IC,R,C,BAT,...)
@@ -144,7 +144,7 @@ Note:
     - ACT = aktivní, ověřená a používaná
     - NRD = aktivní, ale ne pro nové designy
     - EOL = konec životnosti
-@ulend
+
 
 Note:
 
@@ -153,7 +153,7 @@ Note:
 #### @color[#87cefa](Skladové hospodářství 4:)
 ## @color[orange](Struktura databáze II.)
 
-@ul
+
 - Stručný popis, např. podtitulek z datasheetu
 - Přílohy (nabídky, výkresy, datasheety, atd.)
 - Označení pouzdra (0402, SOIC-8)
@@ -163,7 +163,7 @@ Note:
     - Datum naskladění (nutné pro sledování expirace)
 - Použito v projektech X,Y,Z
 - Osazovací popisek (např. 100 nF) - pro ruční osazení
-@ulend
+
 
 Note:
 - Stručný popis injektujeme do knihovny z centrální databáze
@@ -174,7 +174,7 @@ Note:
 #### @color[#87cefa](Skladové hospodářství 5:)
 ## @color[orange](Struktura databáze III.)
 
-@ul
+
 - Výrobce (může být více)
     - Jméno + kontakt
     - Part number výrobce
@@ -183,7 +183,7 @@ Note:
     - Part number dodavatele
     - MOQ, MPU, L/T
     - Ceny (EUR/USD/CZK)
-@ulend
+
 
 Note:
 - Ceny v čase
@@ -196,7 +196,7 @@ Note:
 #### @color[#87cefa](Skladové hospodářství 6:)
 ## @color[orange](Optimalizace součástek)
 
-@ul
+
 - Parametry, dostupnost, cena
 - Hledání průniků
     - Existující produkty
@@ -205,7 +205,7 @@ Note:
 - TCO (Total Cost of Ownership)
 - Ve výrobní fázi (ECO)
     - Popis změny, rozsah, produkty, lidé
-@ulend
+
 
 Note:
 - Projektové bundle ceny
@@ -222,7 +222,7 @@ Note:
 ##### @color[#87cefa](Před návrhem 1:)
 ## @color[orange](Projektová šablona)
 
-@ul
+
 - Specifikace produktu
 - Vlastník produktu (PO)
 - Cílový zákazník
@@ -230,7 +230,7 @@ Note:
 - Odhad životního cyklu:
     - Kolik toho budeme vyrábět?
     - Jak dlouho budeme vyrábět?
-@ulend
+
 
 Note:
 - Product owner
@@ -242,7 +242,7 @@ Note:
 ##### @color[#87cefa](Před návrhem 2:)
 ## @color[orange](Výrobní etapy I.)
 
-@ul
+
 - Příklad rozdělení:
     - Funkční vzorek < 10 ks
     - Prototypová série < 100 ks
@@ -250,7 +250,7 @@ Note:
     - Sériová výroba
 - Rozdělení podle ceny a složitosti
 - Každá etapa má stanovený termín plnění
-@ulend
+
 
 Note:
 
@@ -259,7 +259,7 @@ Note:
 ##### @color[#87cefa](Před návrhem 3:)
 ## @color[orange](Výrobní etapy II.)
 
-@ul
+
 - Od termínu se stanoví harmonogram
 - Příklad plánování pro ověřovací sérii 500 ks
     - 12-16 týdnů nákup materiálu
@@ -268,7 +268,7 @@ Note:
     - 2 týdny oživení
 - Nástroje Redmine, Gantt
 - Interní oponentura před/po každé etapě
-@ulend
+
 
 
 Note:
@@ -279,7 +279,7 @@ Note:
 #### @color[#87cefa](Před návrhem 4:)
 ## @color[orange](Technologické možnosti)
 
-@ul
+
 - Výrobce desek
     - Prototypová výroba - např. Gatema, Pragoboard
     - Sériová výroba - např. MMAB
@@ -288,7 +288,7 @@ Note:
 - Požadavky na výrobní tester
 - Jak se řeší kompletace a balení
 - Jak se řeší skladování
-@ulend
+
 
 Note:
 - Výrobce desek - kompatibilita materiálů
@@ -308,7 +308,7 @@ Note:
 ##### @color[#87cefa](Fáze návrhu 1:)
 ## @color[orange](Technická rozvaha)
 
-@ul
+
 - Systémový diagram
 - Blokový diagram
 - Technická specifikace
@@ -316,7 +316,7 @@ Note:
     - Jednání s výrobci/distributory
 - Výrobní technologie
 - Oponentura technického konceptu
-@ulend
+
 
 Note:
 - Velikost pouzder
@@ -329,7 +329,7 @@ Note:
 #### @color[#87cefa](Fáze návrhu 2:)
 ## @color[orange](Návrhový cyklus desky)
 
-@ul
+
 - 1. Tvorba knihoven
 - 2. Návrh zapojení
 - 3. Rozmístění součástek
@@ -337,7 +337,7 @@ Note:
 - 5. Kontrola ERC/DRC
 - 6. Generování podkladů
 - 7. Odeslání do výroby
-@ulend
+
 
 Note:
 - DFM/DFA/DFT analýza v každém kroku návrhu
@@ -347,7 +347,7 @@ Note:
 #### @color[#87cefa](Fáze návrhu 3:)
 ## @color[orange](Tvorba knihoven I.)
 
-@ul
+
 - Praktická kategorizace
 - Ukázka [kategorizace](https://gist.github.com/hubpav/3115b4a44a9600dc3f6eef0879bd4e56)
 - Přiřazení interního skladovacího čísla
@@ -355,7 +355,7 @@ Note:
 - Správná specifikace balení v označení součástky:
     - Bulk, Cut Tape, DigiReel
     - Tube, Tape & Reel, Tray
-@ulend
+
 
 Note:
 - Pohlídat, že např. konektory mají osazovací čepičky
@@ -365,7 +365,7 @@ Note:
 #### @color[#87cefa](Fáze návrhu 4:)
 ## @color[orange](Tvorba knihoven II.)
 
-@ul
+
 - Prefixy součástky
     - Reference Designator / Name
     - [Inspirace vycházející ze standardů](https://en.wikipedia.org/wiki/Reference_designator)
@@ -375,7 +375,7 @@ Note:
     - Suffix _W pro SMT montáž - pájení vlnou
 - Konzultace s technology u výrobce
 
-@ulend
+
 
 Note:
 - Pohlídat, že např. konektory mají osazovací čepičky
@@ -386,7 +386,7 @@ Note:
 #### @color[#87cefa](Fáze návrhu 5:)
 ## @color[orange](Tvorba schématu)
 
-@ul
+
 - Sběrnice, hier. schémata, wire harness
 - Pojmenované všechny signály
 - Tip: I2C adresy do schématu
@@ -395,54 +395,54 @@ Note:
     - Mezní kmitočet filtru
     - Napětí na referenci
 - Mechanické komponenty součástí schématu
-@ulend
+
 
 ---
 
 #### @color[#87cefa](Fáze návrhu 7:)
 ## @color[orange](Návrh spojů I.)
 
-@ul
+
 - Minimální můstky na masce 0.1 mm
 - Impedanční přizpůsobení a specifikace stacku
 - Čištění nezakončených spojů
 - Spojování prokovů
 - Jasná specifikace pokoveného a nepokoveného frézování
-@ulend
+
 
 ---
 
 #### @color[#87cefa](Fáze návrhu 8:)
 ## @color[orange](Návrh spojů II.)
 
-@ul
+
 - Keramické kondenzátory blízko kraji desky
     - Zvážit použití flex term přívodů
     - Mechanické namáhání nejen při separaci soulepu
 - Pozor na diody ve skleněném pouzdře
 - Minimální vzdálenost mezi test pointy 2 mm
-@ulend
+
 
 ---
 
 #### @color[#87cefa](Fáze návrhu 9:)
 ## @color[orange](Návrh spojů III.)
 
-@ul
+
 - Impedanční přizpůsobení
 - Měď od kraje desky min. 0.3 mm
 - Součástky od hrany desky min. 1 mm
     - Pozor na keramické kondenzátory min. 3 mm
     - Mechanické namáhání nejen při separaci soulepu
     - Zvážit použití flex term přívodů (např. AVX od 1 uF)
-@ulend
+
 
 ---
 
 #### @color[#87cefa](Fáze návrhu 10:)
 ## @color[orange](Náležitosti I.)
 
-@ul
+
 - Označení desky
     - Názvem (SOIL SENSOR), příp. kódem (HX153)
 - Číslo revize desky např. formát Rx.y
@@ -450,26 +450,26 @@ Note:
     - y = minor číslo (oprava, drobné vylepšení)
     - V případě verzovacího systému vytvořit tag
     - Jméno tagu např.: hio-soil-sensor-r1.3
-@ulend
+
 
 ---
 
 #### @color[#87cefa](Fáze návrhu 11:)
 ## @color[orange](Náležitosti II.)
 
-@ul
+
 - Prostor pro trasovatelný kód
     - Číslo, čárový kód, QR / data matrix
     - Speciální vrstva - součást Gerber dat výrobci
     - Laserové gravírování grafického kódu
-@ulend
+
 
 ---
 
 #### @color[#87cefa](Fáze návrhu 12:)
 ## @color[orange](Náležitosti III.)
 
-@ul
+
 - Značky pro osazovací automat (fiducials)
     - Kulatý pad o průměru 1 mm
     - Odmaskování o průměru 2 mm
@@ -477,21 +477,21 @@ Note:
 - Nulová souřadnice desky v levém dolním rohu
     - Někteří výrobci mají problém se zápornými souřadnicemi
 - Naváděcí díry pro jehlové pole (min. průměr trnu 3 mm, díra 3.2 mm)
-@ulend
+
 
 +++
 
 #### @color[#87cefa](Fáze návrhu 12:)
 ## @color[orange](Ukázka fiducial)
 
-![Fiducial](assets/img/fiducial.png)
+![Fid](assets/img/fiducial.png)
 
 ---
 
 #### @color[#87cefa](Fáze návrhu 13:)
 ## @color[orange](Náležitosti IV.)
 
-@ul
+
 - Místo pro "bad mark"
     - Možnost ručně označit defektní DPS v technologickém okolí panelu
     - Uplatnění již od výrobce DPS
@@ -499,21 +499,21 @@ Note:
 - Identifikace vrstev mědi (kontrola)
     - Číslování
     - Čtverečky
-@ulend
+
 
 ---
 
 #### @color[#87cefa](Fáze návrhu 14:)
 ## @color[orange](Kontrola ERC/DRC)
 
-@ul
+
 - Pozor na "Je to jen varování"
 - Šablonové nastavení
 - Vygenerovat všechny polygony
 - Kontrola vzdušných spojů
 - Statistiky (šířky spojů, prokovy, jména spojů)
 - Nezapomenout kontrolovat masku a pastu (pozor na variantní osazení, nanesená pasta může vadit)
-@ulend
+
 
 Note:
 - Dodatečný prokov na spojení zemí a jeho odvrtávání
@@ -530,7 +530,7 @@ Note:
 #### @color[#87cefa](Příprava podkladů 1:)
 ## @color[orange](Přehled dokumentace)
 
-@ul
+
 - Soupiska součástek (BOM)
 - Gerber + NC drill data
 - Specifikace vrstev
@@ -538,14 +538,14 @@ Note:
 - Seznam pozic (pick and place)
 - Osazovací plánky (poziční/hodnotové)
 - Popis oživení a testování
-@ulend
+
 
 ---
 
 #### @color[#87cefa](Příprava podkladů 2:)
 ## @color[orange](Gerber + NC drill data)
 
-@ul
+
 - Aktuální vygenerovaný ground plane
 - ERC/DRC
 - Obrys desky
@@ -554,35 +554,35 @@ Note:
 - Maska T/B
 - Potisk T/B
 - Pájecí pasta T/B - v případě planžety
-@ulend
+
 
 ---
 
 #### @color[#87cefa](Příprava podkladů 3:)
 ## @color[orange](Panelizace desky I.)
 
-@ul
+
 - Jeden design na panel
 - Optimalizace obrysu
 - Typy separace
     - V-drážky (V Grooving)
     - Frézování (Milling)
     - Můstky (Tab breakout)
-@ulend
+
 
 ---
 
 #### @color[#87cefa](Příprava podkladů 4:)
 ## @color[orange](Panelizace desky II.)
 
-@ul
+
 - Technologické okolí
     - "Tooling strip"
     - Po krajích zhruba 10 mm
     - Montážní díry
     - Pomocné využití - testování řízené impedance
     - Bad marky
-@ulend
+
 
 ---
 
@@ -596,7 +596,7 @@ Note:
 #### @color[#87cefa](Zadání do výroby 1:)
 ## @color[orange](Objednání DPS)
 
-@ul
+
 - Název desky, počet kusů, termín
 - Technologie
     - Počet vrstev + layer stack
@@ -604,7 +604,7 @@ Note:
     - Povrchová úprava
     - Testování
 - Výrobní data
-@ulend
+
 
 Note:
 - Vyrobili jsme 6vrstvou desku se 4 vrstvami.
@@ -614,7 +614,7 @@ Note:
 #### @color[#87cefa](Zadání do výroby 2:)
 ## @color[orange](Objednání výroby)
 
-@ul
+
 - Označení zakázky
 - Požadované množství
 - Požadovaný termín
@@ -625,7 +625,7 @@ Note:
     - Osazení desek
     - Testování, kompletace
 - Dokumentační balíček
-@ulend
+
 
 Note:
 - Nejednou jsme jeli do Pragoboardu pro planžetu.
@@ -635,14 +635,14 @@ Note:
 #### @color[#87cefa](Zadání do výroby 3:)
 ## @color[orange](Sledování zakázky)
 
-@ul
+
 - Potvrzení přijetí zakázky
 - Potvrzení správnosti podkladových materiálů
     - Iterační proces
 - Pravidelná komunikace a kontrola
     - Alokace na lince
     - Plnění subdodávek
-@ulend
+
 
 Note:
 - Stalo se nám, že vše bylo vykomunikováno, ale neuskutečnilo se "GO".
@@ -652,7 +652,7 @@ Note:
 #### @color[#87cefa](Zadání do výroby 4:)
 ## @color[orange](Předání zakázky)
 
-@ul
+
 - Předávací protokol
 - Servisní operace
     - Testery
@@ -660,7 +660,7 @@ Note:
     - Výrobci
     - Objednateli
     - Konstruktérovi
-@ulend
+
 
 ---
 
