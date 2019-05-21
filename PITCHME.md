@@ -484,7 +484,9 @@ Note:
 #### @color[#87cefa](Fáze návrhu 12:)
 ## @color[orange](Ukázka fiducial)
 
+@snap[midpoint span-100]
 ![Fid](assets/img/fiducial.png)
+@snapend
 
 ---
 
