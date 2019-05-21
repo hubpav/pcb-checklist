@@ -525,7 +525,7 @@ Note:
 
 - Technologické okolí
     - "Tooling strip"
-    - Po krajích zhruba 10 mm
+    - Po krajích min. 5 mm
     - Montážní díry
     - Pomocné využití - testování řízené impedance
     - Bad marky
