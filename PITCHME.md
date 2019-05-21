@@ -484,7 +484,7 @@ Note:
 #### @color[#87cefa](Fáze návrhu 12:)
 ## @color[orange](Ukázka fiducial)
 
-![](assets/img/fiducial.png)
+![Fiducial](assets/img/fiducial.png)
 
 ---
 
